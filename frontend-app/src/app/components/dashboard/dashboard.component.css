@@ -1,0 +1,48 @@
+.dashboard-container {
+    display: flex;
+    height: 100vh;
+}
+
+/* Fixed Sidebar */
+.sidebar {
+    width: 250px;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-right: 1px solid #dee2e6;
+    position: fixed;
+    height: 100%;
+    overflow-y: auto;
+}
+
+/* Content on the right */
+.content {
+    flex: 1;
+    padding: 20px;
+    margin-left: 270px; /* Adjust to match sidebar width */
+}
+
+.nav-link {
+    color: #333;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    width: 100%;
+    text-align: left;
+}
+
+.nav-link:hover {
+    background-color: #e9ecef;
+}
+
+/* Style submenu */
+.submenu .nav-link {
+    padding-left: 30px;
+}
+
+/* Remove button styling */
+button.nav-link {
+    background: none;
+    border: none;
+    width: 100%;
+    text-align: left;
+}

@@ -1,0 +1,1209 @@
+[{
+  "_id": {
+    "$oid": "678cd7d635f96e73172a8b2f"
+  },
+  "collection": "temperature_data",
+  "database": "agriculture_data",
+  "documents": [
+    {
+      "month": "January",
+      "year": 2020,
+      "unit": "°c",
+      "temperature": -0.216,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737283540825"
+        },
+        "source": "temperature_integration",
+        "dataType": "temperature",
+        "status": "processed",
+        "region": "Souss-Massa",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T10:45:40Z"
+      },
+      "measurement": {
+        "value": -0.216,
+        "unit": "°c",
+        "period": {
+          "month": "January",
+          "year": 2020
+        }
+      }
+    },
+    {
+      "month": "January",
+      "year": 2021,
+      "unit": "°c",
+      "temperature": 1.094,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737283540842"
+        },
+        "source": "temperature_integration",
+        "dataType": "temperature",
+        "status": "processed",
+        "region": "Souss-Massa",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T10:45:40Z"
+      },
+      "measurement": {
+        "value": 1.094,
+        "unit": "°c",
+        "period": {
+          "month": "January",
+          "year": 2021
+        }
+      }
+    },
+    {
+      "month": "January",
+      "year": 2022,
+      "unit": "°c",
+      "temperature": 1.054,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737283540843"
+        },
+        "source": "temperature_integration",
+        "dataType": "temperature",
+        "status": "processed",
+        "region": "Souss-Massa",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T10:45:40Z"
+      },
+      "measurement": {
+        "value": 1.054,
+        "unit": "°c",
+        "period": {
+          "month": "January",
+          "year": 2022
+        }
+      }
+    },
+    {
+      "month": "January",
+      "year": 2023,
+      "unit": "°c",
+      "temperature": 0.445,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737283540843"
+        },
+        "source": "temperature_integration",
+        "dataType": "temperature",
+        "status": "processed",
+        "region": "Souss-Massa",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T10:45:40Z"
+      },
+      "measurement": {
+        "value": 0.445,
+        "unit": "°c",
+        "period": {
+          "month": "January",
+          "year": 2023
+        }
+      }
+    },
+    {
+      "month": "February",
+      "year": 2020,
+      "unit": "°c",
+      "temperature": 2.982,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737283540843"
+        },
+        "source": "temperature_integration",
+        "dataType": "temperature",
+        "status": "processed",
+        "region": "Souss-Massa",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T10:45:40Z"
+      },
+      "measurement": {
+        "value": 2.982,
+        "unit": "°c",
+        "period": {
+          "month": "February",
+          "year": 2020
+        }
+      }
+    },
+    {
+      "month": "February",
+      "year": 2021,
+      "unit": "°c",
+      "temperature": 1.448,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737283540844"
+        },
+        "source": "temperature_integration",
+        "dataType": "temperature",
+        "status": "processed",
+        "region": "Souss-Massa",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T10:45:40Z"
+      },
+      "measurement": {
+        "value": 1.448,
+        "unit": "°c",
+        "period": {
+          "month": "February",
+          "year": 2021
+        }
+      }
+    },
+    {
+      "month": "February",
+      "year": 2022,
+      "unit": "°c",
+      "temperature": 2.102,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737283540844"
+        },
+        "source": "temperature_integration",
+        "dataType": "temperature",
+        "status": "processed",
+        "region": "Souss-Massa",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T10:45:40Z"
+      },
+      "measurement": {
+        "value": 2.102,
+        "unit": "°c",
+        "period": {
+          "month": "February",
+          "year": 2022
+        }
+      }
+    },
+    {
+      "month": "February",
+      "year": 2023,
+      "unit": "°c",
+      "temperature": -0.391,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737283540845"
+        },
+        "source": "temperature_integration",
+        "dataType": "temperature",
+        "status": "processed",
+        "region": "Souss-Massa",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T10:45:40Z"
+      },
+      "measurement": {
+        "value": -0.391,
+        "unit": "°c",
+        "period": {
+          "month": "February",
+          "year": 2023
+        }
+      }
+    },
+    {
+      "month": "March",
+      "year": 2020,
+      "unit": "°c",
+      "temperature": 1.534,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737283540845"
+        },
+        "source": "temperature_integration",
+        "dataType": "temperature",
+        "status": "processed",
+        "region": "Souss-Massa",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T10:45:40Z"
+      },
+      "measurement": {
+        "value": 1.534,
+        "unit": "°c",
+        "period": {
+          "month": "March",
+          "year": 2020
+        }
+      }
+    },
+    {
+      "month": "March",
+      "year": 2021,
+      "unit": "°c",
+      "temperature": 0.726,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737283540845"
+        },
+        "source": "temperature_integration",
+        "dataType": "temperature",
+        "status": "processed",
+        "region": "Souss-Massa",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T10:45:40Z"
+      },
+      "measurement": {
+        "value": 0.726,
+        "unit": "°c",
+        "period": {
+          "month": "March",
+          "year": 2021
+        }
+      }
+    },
+    {
+      "month": "March",
+      "year": 2022,
+      "unit": "°c",
+      "temperature": 0.313,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737283540845"
+        },
+        "source": "temperature_integration",
+        "dataType": "temperature",
+        "status": "processed",
+        "region": "Souss-Massa",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T10:45:40Z"
+      },
+      "measurement": {
+        "value": 0.313,
+        "unit": "°c",
+        "period": {
+          "month": "March",
+          "year": 2022
+        }
+      }
+    },
+    {
+      "month": "March",
+      "year": 2023,
+      "unit": "°c",
+      "temperature": 3.967,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737283540845"
+        },
+        "source": "temperature_integration",
+        "dataType": "temperature",
+        "status": "processed",
+        "region": "Souss-Massa",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T10:45:40Z"
+      },
+      "measurement": {
+        "value": 3.967,
+        "unit": "°c",
+        "period": {
+          "month": "March",
+          "year": 2023
+        }
+      }
+    },
+    {
+      "month": "April",
+      "year": 2020,
+      "unit": "°c",
+      "temperature": 2.188,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737283540846"
+        },
+        "source": "temperature_integration",
+        "dataType": "temperature",
+        "status": "processed",
+        "region": "Souss-Massa",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T10:45:40Z"
+      },
+      "measurement": {
+        "value": 2.188,
+        "unit": "°c",
+        "period": {
+          "month": "April",
+          "year": 2020
+        }
+      }
+    },
+    {
+      "month": "April",
+      "year": 2021,
+      "unit": "°c",
+      "temperature": 2.831,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737283540846"
+        },
+        "source": "temperature_integration",
+        "dataType": "temperature",
+        "status": "processed",
+        "region": "Souss-Massa",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T10:45:40Z"
+      },
+      "measurement": {
+        "value": 2.831,
+        "unit": "°c",
+        "period": {
+          "month": "April",
+          "year": 2021
+        }
+      }
+    },
+    {
+      "month": "April",
+      "year": 2022,
+      "unit": "°c",
+      "temperature": 1.241,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737283540846"
+        },
+        "source": "temperature_integration",
+        "dataType": "temperature",
+        "status": "processed",
+        "region": "Souss-Massa",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T10:45:40Z"
+      },
+      "measurement": {
+        "value": 1.241,
+        "unit": "°c",
+        "period": {
+          "month": "April",
+          "year": 2022
+        }
+      }
+    },
+    {
+      "month": "April",
+      "year": 2023,
+      "unit": "°c",
+      "temperature": 4.788,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737283540848"
+        },
+        "source": "temperature_integration",
+        "dataType": "temperature",
+        "status": "processed",
+        "region": "Souss-Massa",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T10:45:40Z"
+      },
+      "measurement": {
+        "value": 4.788,
+        "unit": "°c",
+        "period": {
+          "month": "April",
+          "year": 2023
+        }
+      }
+    },
+    {
+      "month": "May",
+      "year": 2020,
+      "unit": "°c",
+      "temperature": 3.077,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737283540849"
+        },
+        "source": "temperature_integration",
+        "dataType": "temperature",
+        "status": "processed",
+        "region": "Souss-Massa",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T10:45:40Z"
+      },
+      "measurement": {
+        "value": 3.077,
+        "unit": "°c",
+        "period": {
+          "month": "May",
+          "year": 2020
+        }
+      }
+    },
+    {
+      "month": "May",
+      "year": 2021,
+      "unit": "°c",
+      "temperature": 2.987,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737283540849"
+        },
+        "source": "temperature_integration",
+        "dataType": "temperature",
+        "status": "processed",
+        "region": "Souss-Massa",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T10:45:40Z"
+      },
+      "measurement": {
+        "value": 2.987,
+        "unit": "°c",
+        "period": {
+          "month": "May",
+          "year": 2021
+        }
+      }
+    },
+    {
+      "month": "May",
+      "year": 2022,
+      "unit": "°c",
+      "temperature": 3.56,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737283540849"
+        },
+        "source": "temperature_integration",
+        "dataType": "temperature",
+        "status": "processed",
+        "region": "Souss-Massa",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T10:45:40Z"
+      },
+      "measurement": {
+        "value": 3.56,
+        "unit": "°c",
+        "period": {
+          "month": "May",
+          "year": 2022
+        }
+      }
+    },
+    {
+      "month": "May",
+      "year": 2023,
+      "unit": "°c",
+      "temperature": 1.451,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737283540850"
+        },
+        "source": "temperature_integration",
+        "dataType": "temperature",
+        "status": "processed",
+        "region": "Souss-Massa",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T10:45:40Z"
+      },
+      "measurement": {
+        "value": 1.451,
+        "unit": "°c",
+        "period": {
+          "month": "May",
+          "year": 2023
+        }
+      }
+    },
+    {
+      "month": "June",
+      "year": 2020,
+      "unit": "°c",
+      "temperature": 2.341,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737283540850"
+        },
+        "source": "temperature_integration",
+        "dataType": "temperature",
+        "status": "processed",
+        "region": "Souss-Massa",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T10:45:40Z"
+      },
+      "measurement": {
+        "value": 2.341,
+        "unit": "°c",
+        "period": {
+          "month": "June",
+          "year": 2020
+        }
+      }
+    },
+    {
+      "month": "June",
+      "year": 2021,
+      "unit": "°c",
+      "temperature": 2.311,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737283540850"
+        },
+        "source": "temperature_integration",
+        "dataType": "temperature",
+        "status": "processed",
+        "region": "Souss-Massa",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T10:45:40Z"
+      },
+      "measurement": {
+        "value": 2.311,
+        "unit": "°c",
+        "period": {
+          "month": "June",
+          "year": 2021
+        }
+      }
+    },
+    {
+      "month": "June",
+      "year": 2022,
+      "unit": "°c",
+      "temperature": 3.411,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737283540850"
+        },
+        "source": "temperature_integration",
+        "dataType": "temperature",
+        "status": "processed",
+        "region": "Souss-Massa",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T10:45:40Z"
+      },
+      "measurement": {
+        "value": 3.411,
+        "unit": "°c",
+        "period": {
+          "month": "June",
+          "year": 2022
+        }
+      }
+    },
+    {
+      "month": "June",
+      "year": 2023,
+      "unit": "°c",
+      "temperature": 2.794,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737283540852"
+        },
+        "source": "temperature_integration",
+        "dataType": "temperature",
+        "status": "processed",
+        "region": "Souss-Massa",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T10:45:40Z"
+      },
+      "measurement": {
+        "value": 2.794,
+        "unit": "°c",
+        "period": {
+          "month": "June",
+          "year": 2023
+        }
+      }
+    },
+    {
+      "month": "July",
+      "year": 2020,
+      "unit": "°c",
+      "temperature": 3.169,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737283540853"
+        },
+        "source": "temperature_integration",
+        "dataType": "temperature",
+        "status": "processed",
+        "region": "Souss-Massa",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T10:45:40Z"
+      },
+      "measurement": {
+        "value": 3.169,
+        "unit": "°c",
+        "period": {
+          "month": "July",
+          "year": 2020
+        }
+      }
+    },
+    {
+      "month": "July",
+      "year": 2021,
+      "unit": "°c",
+      "temperature": 2.745,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737283540853"
+        },
+        "source": "temperature_integration",
+        "dataType": "temperature",
+        "status": "processed",
+        "region": "Souss-Massa",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T10:45:40Z"
+      },
+      "measurement": {
+        "value": 2.745,
+        "unit": "°c",
+        "period": {
+          "month": "July",
+          "year": 2021
+        }
+      }
+    },
+    {
+      "month": "July",
+      "year": 2022,
+      "unit": "°c",
+      "temperature": 2.847,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737283540853"
+        },
+        "source": "temperature_integration",
+        "dataType": "temperature",
+        "status": "processed",
+        "region": "Souss-Massa",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T10:45:40Z"
+      },
+      "measurement": {
+        "value": 2.847,
+        "unit": "°c",
+        "period": {
+          "month": "July",
+          "year": 2022
+        }
+      }
+    },
+    {
+      "month": "July",
+      "year": 2023,
+      "unit": "°c",
+      "temperature": 3.378,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737283540853"
+        },
+        "source": "temperature_integration",
+        "dataType": "temperature",
+        "status": "processed",
+        "region": "Souss-Massa",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T10:45:40Z"
+      },
+      "measurement": {
+        "value": 3.378,
+        "unit": "°c",
+        "period": {
+          "month": "July",
+          "year": 2023
+        }
+      }
+    },
+    {
+      "month": "August",
+      "year": 2020,
+      "unit": "°c",
+      "temperature": 2.21,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737283540854"
+        },
+        "source": "temperature_integration",
+        "dataType": "temperature",
+        "status": "processed",
+        "region": "Souss-Massa",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T10:45:40Z"
+      },
+      "measurement": {
+        "value": 2.21,
+        "unit": "°c",
+        "period": {
+          "month": "August",
+          "year": 2020
+        }
+      }
+    },
+    {
+      "month": "August",
+      "year": 2021,
+      "unit": "°c",
+      "temperature": 1.269,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737283540854"
+        },
+        "source": "temperature_integration",
+        "dataType": "temperature",
+        "status": "processed",
+        "region": "Souss-Massa",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T10:45:40Z"
+      },
+      "measurement": {
+        "value": 1.269,
+        "unit": "°c",
+        "period": {
+          "month": "August",
+          "year": 2021
+        }
+      }
+    },
+    {
+      "month": "August",
+      "year": 2022,
+      "unit": "°c",
+      "temperature": 2.258,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737283540855"
+        },
+        "source": "temperature_integration",
+        "dataType": "temperature",
+        "status": "processed",
+        "region": "Souss-Massa",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T10:45:40Z"
+      },
+      "measurement": {
+        "value": 2.258,
+        "unit": "°c",
+        "period": {
+          "month": "August",
+          "year": 2022
+        }
+      }
+    },
+    {
+      "month": "August",
+      "year": 2023,
+      "unit": "°c",
+      "temperature": 2.936,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737283540855"
+        },
+        "source": "temperature_integration",
+        "dataType": "temperature",
+        "status": "processed",
+        "region": "Souss-Massa",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T10:45:40Z"
+      },
+      "measurement": {
+        "value": 2.936,
+        "unit": "°c",
+        "period": {
+          "month": "August",
+          "year": 2023
+        }
+      }
+    },
+    {
+      "month": "September",
+      "year": 2020,
+      "unit": "°c",
+      "temperature": 2.53,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737283540855"
+        },
+        "source": "temperature_integration",
+        "dataType": "temperature",
+        "status": "processed",
+        "region": "Souss-Massa",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T10:45:40Z"
+      },
+      "measurement": {
+        "value": 2.53,
+        "unit": "°c",
+        "period": {
+          "month": "September",
+          "year": 2020
+        }
+      }
+    },
+    {
+      "month": "September",
+      "year": 2021,
+      "unit": "°c",
+      "temperature": 2.193,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737283540855"
+        },
+        "source": "temperature_integration",
+        "dataType": "temperature",
+        "status": "processed",
+        "region": "Souss-Massa",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T10:45:40Z"
+      },
+      "measurement": {
+        "value": 2.193,
+        "unit": "°c",
+        "period": {
+          "month": "September",
+          "year": 2021
+        }
+      }
+    },
+    {
+      "month": "September",
+      "year": 2022,
+      "unit": "°c",
+      "temperature": 1.599,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737283540855"
+        },
+        "source": "temperature_integration",
+        "dataType": "temperature",
+        "status": "processed",
+        "region": "Souss-Massa",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T10:45:40Z"
+      },
+      "measurement": {
+        "value": 1.599,
+        "unit": "°c",
+        "period": {
+          "month": "September",
+          "year": 2022
+        }
+      }
+    },
+    {
+      "month": "September",
+      "year": 2023,
+      "unit": "°c",
+      "temperature": 1.14,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737283540856"
+        },
+        "source": "temperature_integration",
+        "dataType": "temperature",
+        "status": "processed",
+        "region": "Souss-Massa",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T10:45:40Z"
+      },
+      "measurement": {
+        "value": 1.14,
+        "unit": "°c",
+        "period": {
+          "month": "September",
+          "year": 2023
+        }
+      }
+    },
+    {
+      "month": "October",
+      "year": 2020,
+      "unit": "°c",
+      "temperature": 1.366,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737283540856"
+        },
+        "source": "temperature_integration",
+        "dataType": "temperature",
+        "status": "processed",
+        "region": "Souss-Massa",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T10:45:40Z"
+      },
+      "measurement": {
+        "value": 1.366,
+        "unit": "°c",
+        "period": {
+          "month": "October",
+          "year": 2020
+        }
+      }
+    },
+    {
+      "month": "October",
+      "year": 2021,
+      "unit": "°c",
+      "temperature": 2.174,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737283540856"
+        },
+        "source": "temperature_integration",
+        "dataType": "temperature",
+        "status": "processed",
+        "region": "Souss-Massa",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T10:45:40Z"
+      },
+      "measurement": {
+        "value": 2.174,
+        "unit": "°c",
+        "period": {
+          "month": "October",
+          "year": 2021
+        }
+      }
+    },
+    {
+      "month": "October",
+      "year": 2022,
+      "unit": "°c",
+      "temperature": 3.484,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737283540856"
+        },
+        "source": "temperature_integration",
+        "dataType": "temperature",
+        "status": "processed",
+        "region": "Souss-Massa",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T10:45:40Z"
+      },
+      "measurement": {
+        "value": 3.484,
+        "unit": "°c",
+        "period": {
+          "month": "October",
+          "year": 2022
+        }
+      }
+    },
+    {
+      "month": "October",
+      "year": 2023,
+      "unit": "°c",
+      "temperature": 3.169,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737283540856"
+        },
+        "source": "temperature_integration",
+        "dataType": "temperature",
+        "status": "processed",
+        "region": "Souss-Massa",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T10:45:40Z"
+      },
+      "measurement": {
+        "value": 3.169,
+        "unit": "°c",
+        "period": {
+          "month": "October",
+          "year": 2023
+        }
+      }
+    },
+    {
+      "month": "November",
+      "year": 2020,
+      "unit": "°c",
+      "temperature": 2.288,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737283540857"
+        },
+        "source": "temperature_integration",
+        "dataType": "temperature",
+        "status": "processed",
+        "region": "Souss-Massa",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T10:45:40Z"
+      },
+      "measurement": {
+        "value": 2.288,
+        "unit": "°c",
+        "period": {
+          "month": "November",
+          "year": 2020
+        }
+      }
+    },
+    {
+      "month": "November",
+      "year": 2021,
+      "unit": "°c",
+      "temperature": -0.016,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737283540857"
+        },
+        "source": "temperature_integration",
+        "dataType": "temperature",
+        "status": "processed",
+        "region": "Souss-Massa",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T10:45:40Z"
+      },
+      "measurement": {
+        "value": -0.016,
+        "unit": "°c",
+        "period": {
+          "month": "November",
+          "year": 2021
+        }
+      }
+    },
+    {
+      "month": "November",
+      "year": 2022,
+      "unit": "°c",
+      "temperature": 3.335,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737283540858"
+        },
+        "source": "temperature_integration",
+        "dataType": "temperature",
+        "status": "processed",
+        "region": "Souss-Massa",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T10:45:40Z"
+      },
+      "measurement": {
+        "value": 3.335,
+        "unit": "°c",
+        "period": {
+          "month": "November",
+          "year": 2022
+        }
+      }
+    },
+    {
+      "month": "November",
+      "year": 2023,
+      "unit": "°c",
+      "temperature": 2.913,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737283540858"
+        },
+        "source": "temperature_integration",
+        "dataType": "temperature",
+        "status": "processed",
+        "region": "Souss-Massa",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T10:45:40Z"
+      },
+      "measurement": {
+        "value": 2.913,
+        "unit": "°c",
+        "period": {
+          "month": "November",
+          "year": 2023
+        }
+      }
+    },
+    {
+      "month": "December",
+      "year": 2020,
+      "unit": "°c",
+      "temperature": 2.044,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737283540859"
+        },
+        "source": "temperature_integration",
+        "dataType": "temperature",
+        "status": "processed",
+        "region": "Souss-Massa",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T10:45:40Z"
+      },
+      "measurement": {
+        "value": 2.044,
+        "unit": "°c",
+        "period": {
+          "month": "December",
+          "year": 2020
+        }
+      }
+    },
+    {
+      "month": "December",
+      "year": 2021,
+      "unit": "°c",
+      "temperature": 2.372,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737283540859"
+        },
+        "source": "temperature_integration",
+        "dataType": "temperature",
+        "status": "processed",
+        "region": "Souss-Massa",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T10:45:40Z"
+      },
+      "measurement": {
+        "value": 2.372,
+        "unit": "°c",
+        "period": {
+          "month": "December",
+          "year": 2021
+        }
+      }
+    },
+    {
+      "month": "December",
+      "year": 2022,
+      "unit": "°c",
+      "temperature": 4.081,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737283540859"
+        },
+        "source": "temperature_integration",
+        "dataType": "temperature",
+        "status": "processed",
+        "region": "Souss-Massa",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T10:45:40Z"
+      },
+      "measurement": {
+        "value": 4.081,
+        "unit": "°c",
+        "period": {
+          "month": "December",
+          "year": 2022
+        }
+      }
+    },
+    {
+      "month": "December",
+      "year": 2023,
+      "unit": "°c",
+      "temperature": 2.37,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737283540859"
+        },
+        "source": "temperature_integration",
+        "dataType": "temperature",
+        "status": "processed",
+        "region": "Souss-Massa",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T10:45:40Z"
+      },
+      "measurement": {
+        "value": 2.37,
+        "unit": "°c",
+        "period": {
+          "month": "December",
+          "year": 2023
+        }
+      }
+    }
+  ]
+}]

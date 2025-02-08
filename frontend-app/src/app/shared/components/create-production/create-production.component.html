@@ -1,0 +1,76 @@
+<div *ngIf="title.toLowerCase() === 'production'">
+    <h3>Create Production Data</h3>
+    <form (ngSubmit)="onSubmit()">
+      <!-- Year Field -->
+      <div class="form-group my-2">
+        <label for="year">Year</label>
+        <input 
+          id="year" 
+          type="number" 
+          class="form-control" 
+          [(ngModel)]="productionForm.year" 
+          name="year" 
+          placeholder="Enter year (e.g., 2010)" 
+          required>
+      </div>
+      <!-- Category Field -->
+      <div class="form-group my-2">
+        <label for="category">Category</label>
+        <input 
+          id="category" 
+          type="text" 
+          class="form-control" 
+          [(ngModel)]="productionForm.category" 
+          name="category" 
+          placeholder="Enter category (e.g., Cheptel_Bovins)" 
+          required>
+      </div>
+      <!-- Product Field -->
+      <div class="form-group my-2">
+        <label for="product">Product</label>
+        <input 
+          id="product" 
+          type="text" 
+          class="form-control" 
+          [(ngModel)]="productionForm.product" 
+          name="product" 
+          placeholder="Enter product (e.g., Bovins_Femelles)" 
+          required>
+      </div>
+      <!-- Indicator Field -->
+      <div class="form-group my-2">
+        <label for="indicator">Indicator</label>
+        <input 
+          id="indicator" 
+          type="text" 
+          class="form-control" 
+          [(ngModel)]="productionForm.indicator" 
+          name="indicator" 
+          placeholder="Enter indicator (e.g., Effectif (1000 Tête))" 
+          required>
+      </div>
+      <!-- Value Field -->
+      <div class="form-group my-2">
+        <label for="value">Value</label>
+        <input 
+          id="value" 
+          type="number" 
+          class="form-control" 
+          [(ngModel)]="productionForm.value" 
+          name="value" 
+          placeholder="Enter value (e.g., 2174)" 
+          required>
+      </div>
+      <!-- Metadata fields are automatically set and not displayed -->
+      <button type="submit" class="btn btn-primary mt-3">Create</button>
+    </form>
+  
+    <!-- Success and Error Messages -->
+    <div *ngIf="successMessage" class="alert alert-success mt-3">
+      {{ successMessage }}
+    </div>
+    <div *ngIf="errorMessage" class="alert alert-danger mt-3">
+      {{ errorMessage }}
+    </div>
+  </div>
+  

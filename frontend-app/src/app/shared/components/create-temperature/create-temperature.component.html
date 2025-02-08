@@ -1,0 +1,61 @@
+<div *ngIf="title.toLowerCase() === 'temperature'">
+  <h3>Create Temperature Data</h3>
+  <form (ngSubmit)="onSubmit()">
+    <!-- Main Fields -->
+    <div class="form-group my-2">
+      <label for="month">Month</label>
+      <select 
+        id="month" 
+        class="form-control" 
+        [(ngModel)]="temperatureForm.month" 
+        name="month" 
+        required>
+        <option value="" disabled>Select a month</option>
+        <option *ngFor="let month of months" [value]="month">{{ month }}</option>
+      </select>
+    </div>
+
+    <div class="form-group my-2">
+      <label for="year">Year</label>
+      <input 
+        id="year" 
+        type="number" 
+        class="form-control" 
+        [(ngModel)]="temperatureForm.year" 
+        name="year" 
+        placeholder="Enter year (e.g., 2020)" 
+        required>
+    </div>
+
+    <div class="form-group my-2">
+      <label for="unit">Unit</label>
+      <select id="unit" class="form-control" [(ngModel)]="temperatureForm.unit" name="unit" required>
+        <option *ngFor="let unit of allowedUnits" [value]="unit">{{ unit }}</option>
+      </select>
+    </div>
+
+    <div class="form-group my-2">
+      <label for="temperature">Temperature</label>
+      <input 
+        id="temperature" 
+        type="number" 
+        step="0.01" 
+        class="form-control" 
+        [(ngModel)]="temperatureForm.temperature" 
+        name="temperature" 
+        placeholder="Enter temperature (e.g., -0.216)" 
+        required>
+    </div>
+
+    <!-- Metadata is set automatically; not displayed -->
+    <button type="submit" class="btn btn-primary mt-3">Create</button>
+  </form>
+
+  <!-- Success and Error Messages -->
+  <div *ngIf="successMessage" class="alert alert-success mt-3">
+    {{ successMessage }}
+  </div>
+  <div *ngIf="errorMessage" class="alert alert-danger mt-3">
+    {{ errorMessage }}
+  </div>
+</div>

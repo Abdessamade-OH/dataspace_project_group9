@@ -1,0 +1,73 @@
+<div *ngIf="title.toLowerCase() === 'animals'">
+  <h3>{{ updateData ? 'Update' : 'Create' }} Animal Data</h3>
+  <form (ngSubmit)="onSubmit()">
+    <!-- Main Fields -->
+    <div class="form-group my-2">
+      <label for="category">Category</label>
+      <!-- Pre-filled and read-only -->
+      <input 
+        id="category" 
+        type="text" 
+        class="form-control" 
+        [(ngModel)]="animalForm.category" 
+        name="category" 
+        readonly>
+    </div>
+    <div class="form-group my-2">
+      <label for="item">Item</label>
+      <input 
+        id="item" 
+        type="text" 
+        class="form-control" 
+        [(ngModel)]="animalForm.item" 
+        name="item" 
+        placeholder="Enter item (e.g., Meat of cattle with the bone fresh or chilled)" 
+        required>
+    </div>
+    <div class="form-group my-2">
+      <label for="year">Year</label>
+      <input 
+        id="year" 
+        type="number" 
+        class="form-control" 
+        [(ngModel)]="animalForm.year" 
+        name="year" 
+        placeholder="Enter year (e.g., 2023)" 
+        required>
+    </div>
+    <div class="form-group my-2">
+      <label for="unit">Unit</label>
+      <input 
+        id="unit" 
+        type="text" 
+        class="form-control" 
+        [(ngModel)]="animalForm.unit" 
+        name="unit" 
+        placeholder="Enter unit (e.g., An)" 
+        required>
+    </div>
+    <div class="form-group my-2">
+      <label for="value">Value</label>
+      <input 
+        id="value" 
+        type="number" 
+        class="form-control" 
+        [(ngModel)]="animalForm.value" 
+        name="value" 
+        placeholder="Enter value (e.g., 1400000)" 
+        required>
+    </div>
+    <!-- Note: Metadata fields have been removed from the form -->
+    <button type="submit" class="btn btn-primary mt-3">
+      {{ updateData ? 'Update' : 'Create' }}
+    </button>
+  </form>
+
+  <!-- Success and Error Messages -->
+  <div *ngIf="successMessage" class="alert alert-success mt-3">
+    {{ successMessage }}
+  </div>
+  <div *ngIf="errorMessage" class="alert alert-danger mt-3">
+    {{ errorMessage }}
+  </div>
+</div>

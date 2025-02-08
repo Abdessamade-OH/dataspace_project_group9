@@ -1,0 +1,1087 @@
+[{
+  "_id": {
+    "$oid": "67891d8a92688c2cca48179f"
+  },
+  "collection": "production_data",
+  "database": "agriculture_data",
+  "documents": [
+    {
+      "year": 2010,
+      "category": "Cheptel_Bovins",
+      "product": "Bovins_Femelles",
+      "indicator": "Effectif (1000 Tête)",
+      "value": 2174,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737039241810"
+        },
+        "source": "data_integration_pipeline",
+        "status": "processed"
+      }
+    },
+    {
+      "year": 2010,
+      "category": "Cheptel_Bovins",
+      "product": "Bovins_Males",
+      "indicator": "Effectif (1000 Tête)",
+      "value": 614,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737039241812"
+        },
+        "source": "data_integration_pipeline",
+        "status": "processed"
+      }
+    },
+    {
+      "year": 2010,
+      "category": "Cheptel_Caprins",
+      "product": "Caprins_Femelles",
+      "indicator": "Effectif (1000 Tête)",
+      "value": 4030,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737039241812"
+        },
+        "source": "data_integration_pipeline",
+        "status": "processed"
+      }
+    },
+    {
+      "year": 2010,
+      "category": "Cheptel_Caprins",
+      "product": "Caprins_Males",
+      "indicator": "Effectif (1000 Tête)",
+      "value": 1254,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737039241812"
+        },
+        "source": "data_integration_pipeline",
+        "status": "processed"
+      }
+    },
+    {
+      "year": 2010,
+      "category": "Cheptel_Ovins",
+      "product": "Ovins_Femelles",
+      "indicator": "Effectif (1000 Tête)",
+      "value": 12651,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737039241812"
+        },
+        "source": "data_integration_pipeline",
+        "status": "processed"
+      }
+    },
+    {
+      "year": 2010,
+      "category": "Cheptel_Ovins",
+      "product": "Ovins_Males",
+      "indicator": "Effectif (1000 Tête)",
+      "value": 4492,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737039241812"
+        },
+        "source": "data_integration_pipeline",
+        "status": "processed"
+      }
+    },
+    {
+      "year": 2011,
+      "category": "Cheptel_Bovins",
+      "product": "Bovins_Femelles",
+      "indicator": "Effectif (1000 Tête)",
+      "value": 2248,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737039241812"
+        },
+        "source": "data_integration_pipeline",
+        "status": "processed"
+      }
+    },
+    {
+      "year": 2011,
+      "category": "Cheptel_Bovins",
+      "product": "Bovins_Males",
+      "indicator": "Effectif (1000 Tête)",
+      "value": 701,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737039241812"
+        },
+        "source": "data_integration_pipeline",
+        "status": "processed"
+      }
+    },
+    {
+      "year": 2011,
+      "category": "Cheptel_Caprins",
+      "product": "Caprins_Femelles",
+      "indicator": "Effectif (1000 Tête)",
+      "value": 4209,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737039241812"
+        },
+        "source": "data_integration_pipeline",
+        "status": "processed"
+      }
+    },
+    {
+      "year": 2011,
+      "category": "Cheptel_Caprins",
+      "product": "Caprins_Males",
+      "indicator": "Effectif (1000 Tête)",
+      "value": 1395,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737039241812"
+        },
+        "source": "data_integration_pipeline",
+        "status": "processed"
+      }
+    },
+    {
+      "year": 2011,
+      "category": "Cheptel_Ovins",
+      "product": "Ovins_Femelles",
+      "indicator": "Effectif (1000 Tête)",
+      "value": 13343,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737039241812"
+        },
+        "source": "data_integration_pipeline",
+        "status": "processed"
+      }
+    },
+    {
+      "year": 2011,
+      "category": "Cheptel_Ovins",
+      "product": "Ovins_Males",
+      "indicator": "Effectif (1000 Tête)",
+      "value": 4872,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737039241812"
+        },
+        "source": "data_integration_pipeline",
+        "status": "processed"
+      }
+    },
+    {
+      "year": 2012,
+      "category": "Cheptel_Bovins",
+      "product": "Bovins_Femelles",
+      "indicator": "Effectif (1000 Tête)",
+      "value": 2321,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737039241812"
+        },
+        "source": "data_integration_pipeline",
+        "status": "processed"
+      }
+    },
+    {
+      "year": 2012,
+      "category": "Cheptel_Bovins",
+      "product": "Bovins_Males",
+      "indicator": "Effectif (1000 Tête)",
+      "value": 708,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737039241812"
+        },
+        "source": "data_integration_pipeline",
+        "status": "processed"
+      }
+    },
+    {
+      "year": 2012,
+      "category": "Cheptel_Caprins",
+      "product": "Caprins_Femelles",
+      "indicator": "Effectif (1000 Tête)",
+      "value": 4209,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737039241813"
+        },
+        "source": "data_integration_pipeline",
+        "status": "processed"
+      }
+    },
+    {
+      "year": 2012,
+      "category": "Cheptel_Caprins",
+      "product": "Caprins_Males",
+      "indicator": "Effectif (1000 Tête)",
+      "value": 1392,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737039241813"
+        },
+        "source": "data_integration_pipeline",
+        "status": "processed"
+      }
+    },
+    {
+      "year": 2012,
+      "category": "Cheptel_Ovins",
+      "product": "Ovins_Femelles",
+      "indicator": "Effectif (1000 Tête)",
+      "value": 13518,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737039241813"
+        },
+        "source": "data_integration_pipeline",
+        "status": "processed"
+      }
+    },
+    {
+      "year": 2012,
+      "category": "Cheptel_Ovins",
+      "product": "Ovins_Males",
+      "indicator": "Effectif (1000 Tête)",
+      "value": 4920,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737039241813"
+        },
+        "source": "data_integration_pipeline",
+        "status": "processed"
+      }
+    },
+    {
+      "year": 2013,
+      "category": "Cheptel_Bovins",
+      "product": "Bovins_Femelles",
+      "indicator": "Effectif (1000 Tête)",
+      "value": 2400,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737039241813"
+        },
+        "source": "data_integration_pipeline",
+        "status": "processed"
+      }
+    },
+    {
+      "year": 2013,
+      "category": "Cheptel_Bovins",
+      "product": "Bovins_Males",
+      "indicator": "Effectif (1000 Tête)",
+      "value": 773,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737039241813"
+        },
+        "source": "data_integration_pipeline",
+        "status": "processed"
+      }
+    },
+    {
+      "year": 2013,
+      "category": "Cheptel_Caprins",
+      "product": "Caprins_Femelles",
+      "indicator": "Effectif (1000 Tête)",
+      "value": 4401,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737039241813"
+        },
+        "source": "data_integration_pipeline",
+        "status": "processed"
+      }
+    },
+    {
+      "year": 2013,
+      "category": "Cheptel_Caprins",
+      "product": "Caprins_Males",
+      "indicator": "Effectif (1000 Tête)",
+      "value": 1469,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737039241813"
+        },
+        "source": "data_integration_pipeline",
+        "status": "processed"
+      }
+    },
+    {
+      "year": 2013,
+      "category": "Cheptel_Ovins",
+      "product": "Ovins_Femelles",
+      "indicator": "Effectif (1000 Tête)",
+      "value": 13782,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737039241813"
+        },
+        "source": "data_integration_pipeline",
+        "status": "processed"
+      }
+    },
+    {
+      "year": 2013,
+      "category": "Cheptel_Ovins",
+      "product": "Ovins_Males",
+      "indicator": "Effectif (1000 Tête)",
+      "value": 5197,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737039241813"
+        },
+        "source": "data_integration_pipeline",
+        "status": "processed"
+      }
+    },
+    {
+      "year": 2014,
+      "category": "Cheptel_Bovins",
+      "product": "Bovins_Femelles",
+      "indicator": "Effectif (1000 Tête)",
+      "value": 2379,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737039241813"
+        },
+        "source": "data_integration_pipeline",
+        "status": "processed"
+      }
+    },
+    {
+      "year": 2014,
+      "category": "Cheptel_Bovins",
+      "product": "Bovins_Males",
+      "indicator": "Effectif (1000 Tête)",
+      "value": 860,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737039241813"
+        },
+        "source": "data_integration_pipeline",
+        "status": "processed"
+      }
+    },
+    {
+      "year": 2014,
+      "category": "Cheptel_Caprins",
+      "product": "Caprins_Femelles",
+      "indicator": "Effectif (1000 Tête)",
+      "value": 4516,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737039241813"
+        },
+        "source": "data_integration_pipeline",
+        "status": "processed"
+      }
+    },
+    {
+      "year": 2014,
+      "category": "Cheptel_Caprins",
+      "product": "Caprins_Males",
+      "indicator": "Effectif (1000 Tête)",
+      "value": 1631,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737039241813"
+        },
+        "source": "data_integration_pipeline",
+        "status": "processed"
+      }
+    },
+    {
+      "year": 2014,
+      "category": "Cheptel_Ovins",
+      "product": "Ovins_Femelles",
+      "indicator": "Effectif (1000 Tête)",
+      "value": 14207,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737039241814"
+        },
+        "source": "data_integration_pipeline",
+        "status": "processed"
+      }
+    },
+    {
+      "year": 2014,
+      "category": "Cheptel_Ovins",
+      "product": "Ovins_Males",
+      "indicator": "Effectif (1000 Tête)",
+      "value": 5024,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737039241814"
+        },
+        "source": "data_integration_pipeline",
+        "status": "processed"
+      }
+    },
+    {
+      "year": 2015,
+      "category": "Cheptel_Bovins",
+      "product": "Bovins_Femelles",
+      "indicator": "Effectif (1000 Tête)",
+      "value": 2441,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737039241814"
+        },
+        "source": "data_integration_pipeline",
+        "status": "processed"
+      }
+    },
+    {
+      "year": 2015,
+      "category": "Cheptel_Bovins",
+      "product": "Bovins_Males",
+      "indicator": "Effectif (1000 Tête)",
+      "value": 850,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737039241814"
+        },
+        "source": "data_integration_pipeline",
+        "status": "processed"
+      }
+    },
+    {
+      "year": 2015,
+      "category": "Cheptel_Caprins",
+      "product": "Caprins_Femelles",
+      "indicator": "Effectif (1000 Tête)",
+      "value": 4294,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737039241814"
+        },
+        "source": "data_integration_pipeline",
+        "status": "processed"
+      }
+    },
+    {
+      "year": 2015,
+      "category": "Cheptel_Caprins",
+      "product": "Caprins_Males",
+      "indicator": "Effectif (1000 Tête)",
+      "value": 1937,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737039241814"
+        },
+        "source": "data_integration_pipeline",
+        "status": "processed"
+      }
+    },
+    {
+      "year": 2015,
+      "category": "Cheptel_Ovins",
+      "product": "Ovins_Femelles",
+      "indicator": "Effectif (1000 Tête)",
+      "value": 13667,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737039241814"
+        },
+        "source": "data_integration_pipeline",
+        "status": "processed"
+      }
+    },
+    {
+      "year": 2015,
+      "category": "Cheptel_Ovins",
+      "product": "Ovins_Males",
+      "indicator": "Effectif (1000 Tête)",
+      "value": 4843,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737039241814"
+        },
+        "source": "data_integration_pipeline",
+        "status": "processed"
+      }
+    },
+    {
+      "year": 2016,
+      "category": "Cheptel_Bovins",
+      "product": "Bovins_Femelles",
+      "indicator": "Effectif (1000 Tête)",
+      "value": 2475,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737039241814"
+        },
+        "source": "data_integration_pipeline",
+        "status": "processed"
+      }
+    },
+    {
+      "year": 2016,
+      "category": "Cheptel_Bovins",
+      "product": "Bovins_Males",
+      "indicator": "Effectif (1000 Tête)",
+      "value": 851,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737039241814"
+        },
+        "source": "data_integration_pipeline",
+        "status": "processed"
+      }
+    },
+    {
+      "year": 2016,
+      "category": "Cheptel_Caprins",
+      "product": "Caprins_Femelles",
+      "indicator": "Effectif (1000 Tête)",
+      "value": 3954,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737039241814"
+        },
+        "source": "data_integration_pipeline",
+        "status": "processed"
+      }
+    },
+    {
+      "year": 2016,
+      "category": "Cheptel_Caprins",
+      "product": "Caprins_Males",
+      "indicator": "Effectif (1000 Tête)",
+      "value": 1562,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737039241814"
+        },
+        "source": "data_integration_pipeline",
+        "status": "processed"
+      }
+    },
+    {
+      "year": 2016,
+      "category": "Cheptel_Ovins",
+      "product": "Ovins_Femelles",
+      "indicator": "Effectif (1000 Tête)",
+      "value": 14119,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737039241814"
+        },
+        "source": "data_integration_pipeline",
+        "status": "processed"
+      }
+    },
+    {
+      "year": 2016,
+      "category": "Cheptel_Ovins",
+      "product": "Ovins_Males",
+      "indicator": "Effectif (1000 Tête)",
+      "value": 5408,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737039241815"
+        },
+        "source": "data_integration_pipeline",
+        "status": "processed"
+      }
+    },
+    {
+      "year": 2017,
+      "category": "Cheptel_Bovins",
+      "product": "Bovins_Femelles",
+      "indicator": "Effectif (1000 Tête)",
+      "value": 2504,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737039241815"
+        },
+        "source": "data_integration_pipeline",
+        "status": "processed"
+      }
+    },
+    {
+      "year": 2017,
+      "category": "Cheptel_Bovins",
+      "product": "Bovins_Males",
+      "indicator": "Effectif (1000 Tête)",
+      "value": 860,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737039241815"
+        },
+        "source": "data_integration_pipeline",
+        "status": "processed"
+      }
+    },
+    {
+      "year": 2017,
+      "category": "Cheptel_Caprins",
+      "product": "Caprins_Femelles",
+      "indicator": "Effectif (1000 Tête)",
+      "value": 4116,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737039241815"
+        },
+        "source": "data_integration_pipeline",
+        "status": "processed"
+      }
+    },
+    {
+      "year": 2017,
+      "category": "Cheptel_Caprins",
+      "product": "Caprins_Males",
+      "indicator": "Effectif (1000 Tête)",
+      "value": 1626,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737039241815"
+        },
+        "source": "data_integration_pipeline",
+        "status": "processed"
+      }
+    },
+    {
+      "year": 2017,
+      "category": "Cheptel_Ovins",
+      "product": "Ovins_Femelles",
+      "indicator": "Effectif (1000 Tête)",
+      "value": 14362,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737039241815"
+        },
+        "source": "data_integration_pipeline",
+        "status": "processed"
+      }
+    },
+    {
+      "year": 2017,
+      "category": "Cheptel_Ovins",
+      "product": "Ovins_Males",
+      "indicator": "Effectif (1000 Tête)",
+      "value": 5502,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737039241818"
+        },
+        "source": "data_integration_pipeline",
+        "status": "processed"
+      }
+    },
+    {
+      "year": 2018,
+      "category": "Cheptel_Bovins",
+      "product": "Bovins_Femelles",
+      "indicator": "Effectif (1000 Tête)",
+      "value": 2561,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737039241819"
+        },
+        "source": "data_integration_pipeline",
+        "status": "processed"
+      }
+    },
+    {
+      "year": 2018,
+      "category": "Cheptel_Bovins",
+      "product": "Bovins_Males",
+      "indicator": "Effectif (1000 Tête)",
+      "value": 880,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737039241819"
+        },
+        "source": "data_integration_pipeline",
+        "status": "processed"
+      }
+    },
+    {
+      "year": 2018,
+      "category": "Cheptel_Caprins",
+      "product": "Caprins_Femelles",
+      "indicator": "Effectif (1000 Tête)",
+      "value": 4109,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737039241819"
+        },
+        "source": "data_integration_pipeline",
+        "status": "processed"
+      }
+    },
+    {
+      "year": 2018,
+      "category": "Cheptel_Caprins",
+      "product": "Caprins_Males",
+      "indicator": "Effectif (1000 Tête)",
+      "value": 1623,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737039241819"
+        },
+        "source": "data_integration_pipeline",
+        "status": "processed"
+      }
+    },
+    {
+      "year": 2018,
+      "category": "Cheptel_Ovins",
+      "product": "Ovins_Femelles",
+      "indicator": "Effectif (1000 Tête)",
+      "value": 14374,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737039241819"
+        },
+        "source": "data_integration_pipeline",
+        "status": "processed"
+      }
+    },
+    {
+      "year": 2018,
+      "category": "Cheptel_Ovins",
+      "product": "Ovins_Males",
+      "indicator": "Effectif (1000 Tête)",
+      "value": 5506,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737039241819"
+        },
+        "source": "data_integration_pipeline",
+        "status": "processed"
+      }
+    },
+    {
+      "year": 2019,
+      "category": "Cheptel_Bovins",
+      "product": "Bovins_Femelles",
+      "indicator": "Effectif (1000 Tête)",
+      "value": 2499,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737039241819"
+        },
+        "source": "data_integration_pipeline",
+        "status": "processed"
+      }
+    },
+    {
+      "year": 2019,
+      "category": "Cheptel_Bovins",
+      "product": "Bovins_Males",
+      "indicator": "Effectif (1000 Tête)",
+      "value": 839,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737039241819"
+        },
+        "source": "data_integration_pipeline",
+        "status": "processed"
+      }
+    },
+    {
+      "year": 2019,
+      "category": "Cheptel_Caprins",
+      "product": "Caprins_Femelles",
+      "indicator": "Effectif (1000 Tête)",
+      "value": 4149,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737039241819"
+        },
+        "source": "data_integration_pipeline",
+        "status": "processed"
+      }
+    },
+    {
+      "year": 2019,
+      "category": "Cheptel_Caprins",
+      "product": "Caprins_Males",
+      "indicator": "Effectif (1000 Tête)",
+      "value": 1844,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737039241819"
+        },
+        "source": "data_integration_pipeline",
+        "status": "processed"
+      }
+    },
+    {
+      "year": 2019,
+      "category": "Cheptel_Ovins",
+      "product": "Ovins_Femelles",
+      "indicator": "Effectif (1000 Tête)",
+      "value": 14824,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737039241819"
+        },
+        "source": "data_integration_pipeline",
+        "status": "processed"
+      }
+    },
+    {
+      "year": 2019,
+      "category": "Cheptel_Ovins",
+      "product": "Ovins_Males",
+      "indicator": "Effectif (1000 Tête)",
+      "value": 6768,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737039241819"
+        },
+        "source": "data_integration_pipeline",
+        "status": "processed"
+      }
+    },
+    {
+      "year": 2020,
+      "category": "Cheptel_Bovins",
+      "product": "Bovins_Femelles",
+      "indicator": "Effectif (1000 Tête)",
+      "value": 2338,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737039241819"
+        },
+        "source": "data_integration_pipeline",
+        "status": "processed"
+      }
+    },
+    {
+      "year": 2020,
+      "category": "Cheptel_Bovins",
+      "product": "Bovins_Males",
+      "indicator": "Effectif (1000 Tête)",
+      "value": 829,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737039241819"
+        },
+        "source": "data_integration_pipeline",
+        "status": "processed"
+      }
+    },
+    {
+      "year": 2020,
+      "category": "Cheptel_Caprins",
+      "product": "Caprins_Femelles",
+      "indicator": "Effectif (1000 Tête)",
+      "value": 4171,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737039241819"
+        },
+        "source": "data_integration_pipeline",
+        "status": "processed"
+      }
+    },
+    {
+      "year": 2020,
+      "category": "Cheptel_Caprins",
+      "product": "Caprins_Males",
+      "indicator": "Effectif (1000 Tête)",
+      "value": 1810,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737039241819"
+        },
+        "source": "data_integration_pipeline",
+        "status": "processed"
+      }
+    },
+    {
+      "year": 2020,
+      "category": "Cheptel_Ovins",
+      "product": "Ovins_Femelles",
+      "indicator": "Effectif (1000 Tête)",
+      "value": 15015,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737039241820"
+        },
+        "source": "data_integration_pipeline",
+        "status": "processed"
+      }
+    },
+    {
+      "year": 2020,
+      "category": "Cheptel_Ovins",
+      "product": "Ovins_Males",
+      "indicator": "Effectif (1000 Tête)",
+      "value": 7092,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737039241820"
+        },
+        "source": "data_integration_pipeline",
+        "status": "processed"
+      }
+    },
+    {
+      "year": 2021,
+      "category": "Cheptel_Bovins",
+      "product": "Bovins_Femelles",
+      "indicator": "Effectif (1000 Tête)",
+      "value": 2348,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737039241820"
+        },
+        "source": "data_integration_pipeline",
+        "status": "processed"
+      }
+    },
+    {
+      "year": 2021,
+      "category": "Cheptel_Bovins",
+      "product": "Bovins_Males",
+      "indicator": "Effectif (1000 Tête)",
+      "value": 831,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737039241820"
+        },
+        "source": "data_integration_pipeline",
+        "status": "processed"
+      }
+    },
+    {
+      "year": 2021,
+      "category": "Cheptel_Caprins",
+      "product": "Caprins_Femelles",
+      "indicator": "Effectif (1000 Tête)",
+      "value": 4324,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737039241820"
+        },
+        "source": "data_integration_pipeline",
+        "status": "processed"
+      }
+    },
+    {
+      "year": 2021,
+      "category": "Cheptel_Caprins",
+      "product": "Caprins_Males",
+      "indicator": "Effectif (1000 Tête)",
+      "value": 1884,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737039241822"
+        },
+        "source": "data_integration_pipeline",
+        "status": "processed"
+      }
+    },
+    {
+      "year": 2021,
+      "category": "Cheptel_Equins",
+      "product": "Anes_Femelles",
+      "indicator": "Effectif (1000 Tête)",
+      "value": 507,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737039241822"
+        },
+        "source": "data_integration_pipeline",
+        "status": "processed"
+      }
+    },
+    {
+      "year": 2021,
+      "category": "Cheptel_Equins",
+      "product": "Anes_Males",
+      "indicator": "Effectif (1000 Tête)",
+      "value": 384,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737039241822"
+        },
+        "source": "data_integration_pipeline",
+        "status": "processed"
+      }
+    },
+    {
+      "year": 2021,
+      "category": "Cheptel_Equins",
+      "product": "Cheveaux_Femelles",
+      "indicator": "Effectif (1000 Tête)",
+      "value": 92,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737039241822"
+        },
+        "source": "data_integration_pipeline",
+        "status": "processed"
+      }
+    },
+    {
+      "year": 2021,
+      "category": "Cheptel_Equins",
+      "product": "Cheveaux_Males",
+      "indicator": "Effectif (1000 Tête)",
+      "value": 82,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737039241822"
+        },
+        "source": "data_integration_pipeline",
+        "status": "processed"
+      }
+    },
+    {
+      "year": 2021,
+      "category": "Cheptel_Equins",
+      "product": "Mulets",
+      "indicator": "Effectif (1000 Tête)",
+      "value": 382,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737039241822"
+        },
+        "source": "data_integration_pipeline",
+        "status": "processed"
+      }
+    },
+    {
+      "year": 2021,
+      "category": "Cheptel_Ovins",
+      "product": "Ovins_Femelles",
+      "indicator": "Effectif (1000 Tête)",
+      "value": 15599,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737039241823"
+        },
+        "source": "data_integration_pipeline",
+        "status": "processed"
+      }
+    },
+    {
+      "year": 2021,
+      "category": "Cheptel_Ovins",
+      "product": "Ovins_Males",
+      "indicator": "Effectif (1000 Tête)",
+      "value": 7128,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737039241823"
+        },
+        "source": "data_integration_pipeline",
+        "status": "processed"
+      }
+    }
+  ]
+}]

@@ -1,0 +1,31 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+  <div class="container">
+    <!-- Brand -->
+    <a class="navbar-brand" href="/">AgriSpace</a>
+
+    <!-- Toggle Button -->
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar Links -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <!-- Logout Button (Visible when logged in and not on /auth) -->
+        <li class="nav-item" *ngIf="isLoggedIn && !isAuthPage">
+          <a class="btn btn-danger ms-2" (click)="handleLogout()" href="/">Logout</a>
+        </li>
+
+        <!-- Login/Register Link (Visible when not logged in or on /auth) -->
+        <li class="nav-item" *ngIf="!isLoggedIn || isAuthPage">
+          <a class="nav-link" href="/auth">Login / Register</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

@@ -1,0 +1,363 @@
+<div class="container-fluid my-4 pb-4">
+    <!-- Year Filter Row (only for categories other than Water) -->
+    <div *ngIf="selectedCategory !== 'Water'" class="row mb-3">
+      <div class="col-12">
+        <div class="card">
+          <div class="card-body">
+            <div class="input-group">
+              <input type="number" class="form-control" placeholder="Enter Year" [(ngModel)]="filterYear">
+              <button class="btn btn-outline-primary" type="button" (click)="fetchDataByYear()">Fetch Data by Year</button>
+              <button class="btn btn-outline-secondary" type="button" (click)="resetYearFilter()">Reset</button>
+            </div>
+            <div *ngIf="data.length === 0" class="mt-2 text-muted">
+              No data available for the selected year.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Data Cards -->
+    <div class="row">
+      <div *ngFor="let item of paginatedData" class="col-12 col-sm-12 col-md-6 mb-4">
+        <div class="card">
+          <div class="card-header">
+            <ng-container [ngSwitch]="selectedCategory">
+              <ng-container *ngSwitchCase="'Animals'">
+                <h5>{{ item.item }} ({{ item.category }})</h5>
+              </ng-container>
+              <ng-container *ngSwitchCase="'Credit'">
+                <h5>{{ item.credit?.type || 'Credit Data' }}</h5>
+              </ng-container>
+              <ng-container *ngSwitchCase="'Employment'">
+                <h5>{{ item.indicator || 'Employment Data' }}</h5>
+              </ng-container>
+              <ng-container *ngSwitchCase="'Production'">
+                <h5>{{ item.product }} ({{ item.category }})</h5>
+              </ng-container>
+              <ng-container *ngSwitchCase="'Temperature'">
+                <h5>Temperature ({{ item.month }} {{ item.year }})</h5>
+              </ng-container>
+              <ng-container *ngSwitchCase="'Water'">
+                <h5>{{ item.name }} ({{ item.type }})</h5>
+              </ng-container>
+              <ng-container *ngSwitchDefault>
+                <h5>{{ item.name || item.title || item.category }}</h5>
+              </ng-container>
+            </ng-container>
+          </div>
+    
+          <div class="card-body">
+            <ng-container [ngSwitch]="selectedCategory">
+              <ng-container *ngSwitchCase="'Animals'">
+                <p><strong>Year:</strong> {{ item.year }}</p>
+                <p><strong>Unit:</strong> {{ item.unit }}</p>
+                <p><strong>Value:</strong> {{ item.value }}</p>
+                <p><strong>Source:</strong> {{ item.metadata?.source }}</p>
+                <p><strong>Status:</strong> {{ item.metadata?.status }}</p>
+                <p><strong>Country:</strong> {{ item.metadata?.country }}</p>
+                <p><strong>Last Updated:</strong> {{ item.metadata?.lastUpdated | date:'short' }}</p>
+              </ng-container>
+    
+              <ng-container *ngSwitchCase="'Credit'">
+                <p><strong>Year:</strong> {{ item.credit?.measurement?.year }}</p>
+                <p><strong>Value:</strong> {{ item.credit?.measurement?.value }}</p>
+                <p><strong>Unit:</strong> {{ item.credit?.measurement?.unit }}</p>
+                <p><strong>Source:</strong> {{ item.metadata?.source }}</p>
+                <p><strong>Status:</strong> {{ item.metadata?.status }}</p>
+                <p><strong>Country:</strong> {{ item.metadata?.country }}</p>
+                <p><strong>Last Updated:</strong> {{ item.metadata?.lastUpdated | date:'short' }}</p>
+              </ng-container>
+    
+              <ng-container *ngSwitchCase="'Employment'">
+                <p><strong>Sex:</strong> {{ item.sex }}</p>
+                <p><strong>Year:</strong> {{ item.year }}</p>
+                <p><strong>Element:</strong> {{ item.element }}</p>
+                <p><strong>Source:</strong> {{ item.source }}</p>
+                <p><strong>Unit:</strong> {{ item.unit }}</p>
+                <p><strong>Value:</strong> {{ item.value }}</p>
+                <p><strong>Last Updated:</strong> {{ item.metadata?.lastUpdated | date:'short' }}</p>
+              </ng-container>
+    
+              <ng-container *ngSwitchCase="'Production'">
+                <p><strong>Year:</strong> {{ item.year }}</p>
+                <p><strong>Indicator:</strong> {{ item.indicator }}</p>
+                <p><strong>Value:</strong> {{ item.value }}</p>
+                <p><strong>Source:</strong> {{ item.metadata?.source }}</p>
+                <p><strong>Status:</strong> {{ item.metadata?.status }}</p>
+                <p><strong>Last Updated:</strong> {{ item.metadata?.lastUpdated | date:'short' }}</p>
+              </ng-container>
+    
+              <ng-container *ngSwitchCase="'Temperature'">
+                <p><strong>Month:</strong> {{ item.month }}</p>
+                <p><strong>Year:</strong> {{ item.year }}</p>
+                <p><strong>Temperature:</strong> {{ item.temperature }}</p>
+                <p><strong>Unit:</strong> {{ item.unit }}</p>
+                <p><strong>Source:</strong> {{ item.metadata?.source }}</p>
+                <p><strong>Region:</strong> {{ item.metadata?.region }}</p>
+                <p><strong>Last Updated:</strong> {{ item.metadata?.lastUpdated | date:'short' }}</p>
+              </ng-container>
+    
+              <ng-container *ngSwitchCase="'Water'">
+                <p><strong>Longitude:</strong> {{ item.longitude }}</p>
+                <p><strong>Latitude:</strong> {{ item.latitude }}</p>
+                <p><strong>Source:</strong> {{ item.metadata?.source }}</p>
+                <p><strong>Status:</strong> {{ item.metadata?.status }}</p>
+                <p><strong>Region:</strong> {{ item.metadata?.region }}</p>
+                <p><strong>Country:</strong> {{ item.metadata?.country }}</p>
+                <p><strong>Last Updated:</strong> {{ item.metadata?.lastUpdated | date:'short' }}</p>
+              </ng-container>
+    
+              <ng-container *ngSwitchDefault>
+                <p><strong>Description:</strong> {{ item.description }}</p>
+                <p><strong>Status:</strong> {{ item.status }}</p>
+              </ng-container>
+            </ng-container>
+    
+            <div class="d-flex justify-content-between mt-3">
+              <button class="btn btn-primary btn-sm" (click)="openUpdateModal(item)">Update</button>
+              <button class="btn btn-danger btn-sm" (click)="deleteItem(item); $event.preventDefault();">Delete</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Bootstrap Pagination (unchanged) -->
+    <nav aria-label="Page navigation">
+      <ul class="pagination justify-content-center">
+        <li class="page-item" [class.disabled]="currentPage === 1">
+          <a class="page-link" href="#" (click)="previousPage(); $event.preventDefault();">Previous</a>
+        </li>
+        <li class="page-item" *ngFor="let page of [].constructor(totalPages); let i = index" [class.active]="currentPage === (i + 1)">
+          <a class="page-link" href="#" (click)="goToPage(i + 1); $event.preventDefault();">{{ i + 1 }}</a>
+        </li>
+        <li class="page-item" [class.disabled]="currentPage === totalPages || totalPages === 0">
+          <a class="page-link" href="#" (click)="nextPage(); $event.preventDefault();">Next</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  
+  
+  <!-- Update Modal -->
+  <div class="modal fade show" tabindex="-1" role="dialog" *ngIf="showUpdateModal" style="display: block; background: rgba(0,0,0,0.5);">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Update {{ selectedCategory }} Data</h5>
+          <button type="button" class="close" aria-label="Close" (click)="closeUpdateModal()">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <!-- Update form -->
+          <form (ngSubmit)="updateItem()">
+            <ng-container [ngSwitch]="selectedCategory">
+              <!-- Animals Update Form -->
+              <ng-container *ngSwitchCase="'Animals'">
+                <div class="form-group">
+                  <label for="animalItem">Item</label>
+                  <input type="text" id="animalItem" class="form-control" [(ngModel)]="updateData.item" name="item">
+                </div>
+                <div class="form-group">
+                  <label for="animalCategory">Category</label>
+                  <input type="text" id="animalCategory" class="form-control" [(ngModel)]="updateData.category" name="category">
+                </div>
+                <div class="form-group">
+                  <label for="animalYear">Year</label>
+                  <input type="number" id="animalYear" class="form-control" [(ngModel)]="updateData.year" name="year">
+                </div>
+                <div class="form-group">
+                  <label for="animalUnit">Unit</label>
+                  <input type="text" id="animalUnit" class="form-control" [(ngModel)]="updateData.unit" name="unit">
+                </div>
+                <div class="form-group">
+                  <label for="animalValue">Value</label>
+                  <input type="number" id="animalValue" class="form-control" [(ngModel)]="updateData.value" name="value">
+                </div>
+              </ng-container>
+  
+              <!-- Credit Update Form -->
+              <ng-container *ngSwitchCase="'Credit'">
+                <div class="form-group">
+                  <label for="creditType">Type</label>
+                  <input type="text" id="creditType" class="form-control" [(ngModel)]="updateData.credit.type" name="creditType">
+                </div>
+                <div class="form-group">
+                  <label for="measurementYear">Year</label>
+                  <input type="number" id="measurementYear" class="form-control" [(ngModel)]="updateData.credit.measurement.year" name="measurementYear">
+                </div>
+                <div class="form-group">
+                  <label for="measurementValue">Value</label>
+                  <input type="number" id="measurementValue" class="form-control" [(ngModel)]="updateData.credit.measurement.value" name="measurementValue">
+                </div>
+                <div class="form-group">
+                  <label for="measurementUnit">Unit</label>
+                  <input type="text" id="measurementUnit" class="form-control" [(ngModel)]="updateData.credit.measurement.unit" name="measurementUnit">
+                </div>
+                <div class="form-group">
+                  <label for="metadataSource">Source</label>
+                  <input type="text" id="metadataSource" class="form-control" [(ngModel)]="updateData.metadata.source" name="metadataSource">
+                </div>
+                <div class="form-group">
+                  <label for="metadataStatus">Status</label>
+                  <input type="text" id="metadataStatus" class="form-control" [(ngModel)]="updateData.metadata.status" name="metadataStatus">
+                </div>
+                <div class="form-group">
+                  <label for="metadataCountry">Country</label>
+                  <input type="text" id="metadataCountry" class="form-control" [(ngModel)]="updateData.metadata.country" name="metadataCountry">
+                </div>
+              </ng-container>
+  
+              <!-- Employment Update Form -->
+              <ng-container *ngSwitchCase="'Employment'">
+                <div class="form-group">
+                  <label for="employmentIndicator">Indicator</label>
+                  <input type="text" id="employmentIndicator" class="form-control" [(ngModel)]="updateData.indicator" name="employmentIndicator">
+                </div>
+                <div class="form-group">
+                  <label for="employmentSex">Sex</label>
+                  <input type="text" id="employmentSex" class="form-control" [(ngModel)]="updateData.sex" name="employmentSex">
+                </div>
+                <div class="form-group">
+                  <label for="employmentYear">Year</label>
+                  <input type="number" id="employmentYear" class="form-control" [(ngModel)]="updateData.year" name="employmentYear">
+                </div>
+                <div class="form-group">
+                  <label for="employmentElement">Element</label>
+                  <input type="text" id="employmentElement" class="form-control" [(ngModel)]="updateData.element" name="employmentElement">
+                </div>
+                <div class="form-group">
+                  <label for="employmentSource">Source</label>
+                  <input type="text" id="employmentSource" class="form-control" [(ngModel)]="updateData.source" name="employmentSource">
+                </div>
+                <div class="form-group">
+                  <label for="employmentUnit">Unit</label>
+                  <input type="text" id="employmentUnit" class="form-control" [(ngModel)]="updateData.unit" name="employmentUnit">
+                </div>
+                <div class="form-group">
+                  <label for="employmentValue">Value</label>
+                  <input type="number" id="employmentValue" class="form-control" [(ngModel)]="updateData.value" name="employmentValue">
+                </div>
+              </ng-container>
+  
+              <!-- Production Update Form -->
+              <ng-container *ngSwitchCase="'Production'">
+                <div class="form-group">
+                  <label for="productionYear">Year</label>
+                  <input type="number" id="productionYear" class="form-control" [(ngModel)]="updateData.year" name="productionYear">
+                </div>
+                <div class="form-group">
+                  <label for="productionCategory">Category</label>
+                  <input type="text" id="productionCategory" class="form-control" [(ngModel)]="updateData.category" name="productionCategory">
+                </div>
+                <div class="form-group">
+                  <label for="productionProduct">Product</label>
+                  <input type="text" id="productionProduct" class="form-control" [(ngModel)]="updateData.product" name="productionProduct">
+                </div>
+                <div class="form-group">
+                  <label for="productionIndicator">Indicator</label>
+                  <input type="text" id="productionIndicator" class="form-control" [(ngModel)]="updateData.indicator" name="productionIndicator">
+                </div>
+                <div class="form-group">
+                  <label for="productionValue">Value</label>
+                  <input type="number" id="productionValue" class="form-control" [(ngModel)]="updateData.value" name="productionValue">
+                </div>
+                <div class="form-group">
+                  <label for="metadataSource">Source</label>
+                  <input type="text" id="metadataSource" class="form-control" [(ngModel)]="updateData.metadata.source" name="metadataSource">
+                </div>
+                <div class="form-group">
+                  <label for="metadataStatus">Status</label>
+                  <input type="text" id="metadataStatus" class="form-control" [(ngModel)]="updateData.metadata.status" name="metadataStatus">
+                </div>
+              </ng-container>
+  
+              <!-- Temperature Update Form -->
+              <ng-container *ngSwitchCase="'Temperature'">
+                <div class="form-group">
+                  <label for="temperatureMonth">Month</label>
+                  <input type="text" id="temperatureMonth" class="form-control" [(ngModel)]="updateData.month" name="temperatureMonth">
+                </div>
+                <div class="form-group">
+                  <label for="temperatureYear">Year</label>
+                  <input type="number" id="temperatureYear" class="form-control" [(ngModel)]="updateData.year" name="temperatureYear">
+                </div>
+                <div class="form-group">
+                  <label for="temperatureUnit">Unit</label>
+                  <input type="text" id="temperatureUnit" class="form-control" [(ngModel)]="updateData.unit" name="temperatureUnit">
+                </div>
+                <div class="form-group">
+                  <label for="temperatureValue">Temperature</label>
+                  <input type="number" id="temperatureValue" class="form-control" [(ngModel)]="updateData.temperature" name="temperatureValue">
+                </div>
+                <div class="form-group">
+                  <label for="metadataSource">Source</label>
+                  <input type="text" id="metadataSource" class="form-control" [(ngModel)]="updateData.metadata.source" name="metadataSource">
+                </div>
+                <div class="form-group">
+                  <label for="metadataRegion">Region</label>
+                  <input type="text" id="metadataRegion" class="form-control" [(ngModel)]="updateData.metadata.region" name="metadataRegion">
+                </div>
+                <div class="form-group">
+                  <label for="metadataCountry">Country</label>
+                  <input type="text" id="metadataCountry" class="form-control" [(ngModel)]="updateData.metadata.country" name="metadataCountry">
+                </div>
+              </ng-container>
+  
+              <!-- Water Update Form -->
+              <ng-container *ngSwitchCase="'Water'">
+                <div class="form-group">
+                  <label for="waterName">Name</label>
+                  <input type="text" id="waterName" class="form-control" [(ngModel)]="updateData.name" name="waterName">
+                </div>
+                <div class="form-group">
+                  <label for="waterType">Type</label>
+                  <input type="text" id="waterType" class="form-control" [(ngModel)]="updateData.type" name="waterType">
+                </div>
+                <div class="form-group">
+                  <label for="waterLongitude">Longitude</label>
+                  <input type="number" id="waterLongitude" class="form-control" [(ngModel)]="updateData.longitude" name="waterLongitude">
+                </div>
+                <div class="form-group">
+                  <label for="waterLatitude">Latitude</label>
+                  <input type="number" id="waterLatitude" class="form-control" [(ngModel)]="updateData.latitude" name="waterLatitude">
+                </div>
+                <div class="form-group">
+                  <label for="metadataSource">Source</label>
+                  <input type="text" id="metadataSource" class="form-control" [(ngModel)]="updateData.metadata.source" name="metadataSource">
+                </div>
+                <div class="form-group">
+                  <label for="metadataStatus">Status</label>
+                  <input type="text" id="metadataStatus" class="form-control" [(ngModel)]="updateData.metadata.status" name="metadataStatus">
+                </div>
+                <div class="form-group">
+                  <label for="metadataRegion">Region</label>
+                  <input type="text" id="metadataRegion" class="form-control" [(ngModel)]="updateData.metadata.region" name="metadataRegion">
+                </div>
+                <div class="form-group">
+                  <label for="metadataCountry">Country</label>
+                  <input type="text" id="metadataCountry" class="form-control" [(ngModel)]="updateData.metadata.country" name="metadataCountry">
+                </div>
+              </ng-container>
+  
+              <!-- Default: Read-only JSON view -->
+              <ng-container *ngSwitchDefault>
+                <div class="form-group">
+                  <label for="jsonData">Data (JSON)</label>
+                  <textarea class="form-control" rows="5" readonly>{{ updateData | json }}</textarea>
+                </div>
+              </ng-container>
+            </ng-container>
+  
+            <div class="modal-footer">
+              <button type="submit" class="btn btn-primary">Update</button>
+              <button type="button" class="btn btn-secondary" (click)="closeUpdateModal()">Cancel</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  

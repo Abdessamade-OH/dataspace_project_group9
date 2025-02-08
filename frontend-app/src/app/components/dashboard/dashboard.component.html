@@ -1,0 +1,102 @@
+<div class="dashboard-container-fluid">
+    <!-- Sidebar -->
+    <div class="sidebar px-0">
+      <h2 class="text-center">Dashboard</h2>
+      <ul class="nav flex-column">
+        <!-- Loop through categories -->
+        <li *ngFor="let category of categories" class="nav-item">
+          <!-- Main category: toggles submenu -->
+          <div class="nav-link d-flex justify-content-between align-items-center"
+               (click)="toggleSection(category)"
+               style="cursor: pointer;">
+            <span><i class="fa fa-folder me-2"></i> {{ category }}</span>
+            <i class="fa" [ngClass]="{'fa-chevron-down': activeSection === category, 'fa-chevron-right': activeSection !== category}"></i>
+          </div>
+          <!-- Submenu: actions -->
+          <ul *ngIf="activeSection === category" class="submenu ps-4">
+            <!-- Loop through actions -->
+            <li *ngFor="let action of actions" class="nav-item">
+              <!-- For Water, hide 'Graphs' -->
+              <ng-container *ngIf="!(category === 'Water' && action === 'Graphs')">
+                <button class="nav-link d-flex align-items-center" (click)="selectAction(category, action)">
+                  <i class="fa me-2"
+                     [ngClass]="{
+                       'fa-pencil': action === 'Create',
+                       'fa-eye': action === 'View',
+                       'fa-upload': action === 'Bulk Upload',
+                       'fa-chart-line': action === 'Graphs'
+                     }"></i>
+                  {{ action }}
+                </button>
+              </ng-container>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    
+    <!-- Main Content -->
+    <div class="content">
+      <h3 *ngIf="selectedCategory">Category: {{ selectedCategory }}</h3>
+      <h4 *ngIf="selectedAction">Action: {{ selectedAction }}</h4>
+      <p *ngIf="!selectedCategory">Select an operation from the sidebar</p>
+      
+      <!-- Bulk Upload Section -->
+      <div *ngIf="selectedAction === 'Bulk Upload'" class="card">
+        <div class="card-body">
+          <div class="alert alert-warning">
+            <i class="fa fa-exclamation-triangle me-2"></i>
+            <strong>Warning:</strong> Uploading a new JSON file will permanently delete all existing data for this category and replace it with the new data. This action cannot be undone.
+          </div>
+          <div class="mb-3">
+            <label for="fileInput" class="form-label">Select JSON file for bulk upload</label>
+            <input #fileInput type="file" class="form-control" id="fileInput" accept=".json" (change)="onFileSelected($event)" [disabled]="isUploading">
+          </div>
+          <div *ngIf="uploadError" class="alert alert-danger">
+            <i class="fa fa-times-circle me-2"></i>
+            {{ uploadError }}
+          </div>
+          <div *ngIf="uploadSuccess" class="alert alert-success">
+            <i class="fa fa-check-circle me-2"></i>
+            {{ uploadSuccess }}
+          </div>
+          <div *ngIf="isUploading" class="d-flex align-items-center">
+            <div class="spinner-border text-primary me-2" role="status">
+              <span class="visually-hidden">Loading...</span>
+            </div>
+            <span>Uploading...</span>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Create Components -->
+      <app-create-data *ngIf="selectedCategory === 'Animals' && selectedAction === 'Create'" [title]="selectedCategory"></app-create-data>
+      <app-create-credit *ngIf="selectedCategory === 'Credit' && selectedAction === 'Create'" [title]="selectedCategory"></app-create-credit>
+      <app-create-employment *ngIf="selectedCategory === 'Employment' && selectedAction === 'Create'" [title]="selectedCategory"></app-create-employment>
+      <app-create-production *ngIf="selectedCategory === 'Production' && selectedAction === 'Create'" [title]="selectedCategory"></app-create-production>
+      <app-create-water *ngIf="selectedCategory === 'Water' && selectedAction === 'Create'" [title]="selectedCategory"></app-create-water>
+      <app-create-temperature *ngIf="selectedCategory === 'Temperature' && selectedAction === 'Create'" [title]="selectedCategory"></app-create-temperature>
+      
+      <!-- View Component -->
+      <app-view-data *ngIf="selectedAction === 'View'" [selectedCategory]="selectedCategory"></app-view-data>
+      
+      <!-- Graphs Section -->
+      <div *ngIf="selectedAction === 'Graphs' && selectedCategory !== 'Water'" class="card">
+        <div class="card-body">
+          <!-- For Temperature, show two charts -->
+          <ng-container *ngIf="selectedCategory === 'Temperature'; else singleGraph">
+            <h4>Graph: Number of Objects by Year for Temperature</h4>
+            <canvas #chartCanvasCount></canvas>
+            <h4>Graph: Average Temperature (°C) by Year</h4>
+            <canvas #chartCanvasTemp></canvas>
+          </ng-container>
+          <!-- For all other categories -->
+          <ng-template #singleGraph>
+            <h4>Graph: Number of Objects by Year for {{ selectedCategory }}</h4>
+            <canvas #chartCanvas></canvas>
+          </ng-template>
+        </div>
+      </div>
+    </div>
+  </div>
+  

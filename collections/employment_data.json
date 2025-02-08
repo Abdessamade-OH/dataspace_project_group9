@@ -1,0 +1,711 @@
+[{
+  "_id": {
+    "$oid": "678cff7835f96e73172a8b38"
+  },
+  "collection": "employment_data",
+  "database": "agriculture_data",
+  "documents": [
+    {
+      "indicator": "Employment in agriculture - ILO modelled estimates",
+      "sex": "Total",
+      "year": 2020,
+      "element": "ILO - ILO Modelled Estimates",
+      "source": "1000 No",
+      "unit": "3386.19",
+      "value": 0,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737293688126"
+        },
+        "source": "employment_integration",
+        "dataType": "agriculture_employment",
+        "status": "processed",
+        "lastUpdated": "2025-01-19T13:34:48Z"
+      }
+    },
+    {
+      "indicator": "Employment in agriculture - ILO modelled estimates",
+      "sex": "Total",
+      "year": 2021,
+      "element": "ILO - ILO Modelled Estimates",
+      "source": "1000 No",
+      "unit": "3406.77",
+      "value": 0,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737293688174"
+        },
+        "source": "employment_integration",
+        "dataType": "agriculture_employment",
+        "status": "processed",
+        "lastUpdated": "2025-01-19T13:34:48Z"
+      }
+    },
+    {
+      "indicator": "Employment in agriculture - ILO modelled estimates",
+      "sex": "Total",
+      "year": 2022,
+      "element": "ILO - ILO Modelled Estimates",
+      "source": "1000 No",
+      "unit": "3371.95",
+      "value": 0,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737293688174"
+        },
+        "source": "employment_integration",
+        "dataType": "agriculture_employment",
+        "status": "processed",
+        "lastUpdated": "2025-01-19T13:34:48Z"
+      }
+    },
+    {
+      "indicator": "Employment in agriculture - ILO modelled estimates",
+      "sex": "Male",
+      "year": 2020,
+      "element": "ILO - ILO Modelled Estimates",
+      "source": "1000 No",
+      "unit": "2175.31",
+      "value": 0,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737293688174"
+        },
+        "source": "employment_integration",
+        "dataType": "agriculture_employment",
+        "status": "processed",
+        "lastUpdated": "2025-01-19T13:34:48Z"
+      }
+    },
+    {
+      "indicator": "Employment in agriculture - ILO modelled estimates",
+      "sex": "Male",
+      "year": 2021,
+      "element": "ILO - ILO Modelled Estimates",
+      "source": "1000 No",
+      "unit": "2195.97",
+      "value": 0,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737293688174"
+        },
+        "source": "employment_integration",
+        "dataType": "agriculture_employment",
+        "status": "processed",
+        "lastUpdated": "2025-01-19T13:34:48Z"
+      }
+    },
+    {
+      "indicator": "Employment in agriculture - ILO modelled estimates",
+      "sex": "Male",
+      "year": 2022,
+      "element": "ILO - ILO Modelled Estimates",
+      "source": "1000 No",
+      "unit": "2222.08",
+      "value": 0,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737293688174"
+        },
+        "source": "employment_integration",
+        "dataType": "agriculture_employment",
+        "status": "processed",
+        "lastUpdated": "2025-01-19T13:34:48Z"
+      }
+    },
+    {
+      "indicator": "Employment in agriculture - ILO modelled estimates",
+      "sex": "Female",
+      "year": 2020,
+      "element": "ILO - ILO Modelled Estimates",
+      "source": "1000 No",
+      "unit": "1210.88",
+      "value": 0,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737293688174"
+        },
+        "source": "employment_integration",
+        "dataType": "agriculture_employment",
+        "status": "processed",
+        "lastUpdated": "2025-01-19T13:34:48Z"
+      }
+    },
+    {
+      "indicator": "Employment in agriculture - ILO modelled estimates",
+      "sex": "Female",
+      "year": 2021,
+      "element": "ILO - ILO Modelled Estimates",
+      "source": "1000 No",
+      "unit": "1210.80",
+      "value": 0,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737293688175"
+        },
+        "source": "employment_integration",
+        "dataType": "agriculture_employment",
+        "status": "processed",
+        "lastUpdated": "2025-01-19T13:34:48Z"
+      }
+    },
+    {
+      "indicator": "Employment in agriculture - ILO modelled estimates",
+      "sex": "Female",
+      "year": 2022,
+      "element": "ILO - ILO Modelled Estimates",
+      "source": "1000 No",
+      "unit": "1149.87",
+      "value": 0,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737293688175"
+        },
+        "source": "employment_integration",
+        "dataType": "agriculture_employment",
+        "status": "processed",
+        "lastUpdated": "2025-01-19T13:34:48Z"
+      }
+    },
+    {
+      "indicator": "Share of employment in agriculture in total employment - ILO Modelled Estimates",
+      "sex": "Total",
+      "year": 2020,
+      "element": "ILO - ILO Modelled Estimates",
+      "source": "%",
+      "unit": "32.1",
+      "value": 0,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737293688175"
+        },
+        "source": "employment_integration",
+        "dataType": "agriculture_employment",
+        "status": "processed",
+        "lastUpdated": "2025-01-19T13:34:48Z"
+      }
+    },
+    {
+      "indicator": "Share of employment in agriculture in total employment - ILO Modelled Estimates",
+      "sex": "Total",
+      "year": 2021,
+      "element": "ILO - ILO Modelled Estimates",
+      "source": "%",
+      "unit": "31.2",
+      "value": 0,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737293688175"
+        },
+        "source": "employment_integration",
+        "dataType": "agriculture_employment",
+        "status": "processed",
+        "lastUpdated": "2025-01-19T13:34:48Z"
+      }
+    },
+    {
+      "indicator": "Share of employment in agriculture in total employment - ILO Modelled Estimates",
+      "sex": "Total",
+      "year": 2022,
+      "element": "ILO - ILO Modelled Estimates",
+      "source": "%",
+      "unit": "30.8",
+      "value": 0,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737293688175"
+        },
+        "source": "employment_integration",
+        "dataType": "agriculture_employment",
+        "status": "processed",
+        "lastUpdated": "2025-01-19T13:34:48Z"
+      }
+    },
+    {
+      "indicator": "Share of employment in agriculture in total employment - ILO Modelled Estimates",
+      "sex": "Male",
+      "year": 2020,
+      "element": "ILO - ILO Modelled Estimates",
+      "source": "%",
+      "unit": "26.8",
+      "value": 0,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737293688175"
+        },
+        "source": "employment_integration",
+        "dataType": "agriculture_employment",
+        "status": "processed",
+        "lastUpdated": "2025-01-19T13:34:48Z"
+      }
+    },
+    {
+      "indicator": "Share of employment in agriculture in total employment - ILO Modelled Estimates",
+      "sex": "Male",
+      "year": 2021,
+      "element": "ILO - ILO Modelled Estimates",
+      "source": "%",
+      "unit": "26.0",
+      "value": 0,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737293688175"
+        },
+        "source": "employment_integration",
+        "dataType": "agriculture_employment",
+        "status": "processed",
+        "lastUpdated": "2025-01-19T13:34:48Z"
+      }
+    },
+    {
+      "indicator": "Share of employment in agriculture in total employment - ILO Modelled Estimates",
+      "sex": "Male",
+      "year": 2022,
+      "element": "ILO - ILO Modelled Estimates",
+      "source": "%",
+      "unit": "25.9",
+      "value": 0,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737293688175"
+        },
+        "source": "employment_integration",
+        "dataType": "agriculture_employment",
+        "status": "processed",
+        "lastUpdated": "2025-01-19T13:34:48Z"
+      }
+    },
+    {
+      "indicator": "Share of employment in agriculture in total employment - ILO Modelled Estimates",
+      "sex": "Female",
+      "year": 2020,
+      "element": "ILO - ILO Modelled Estimates",
+      "source": "%",
+      "unit": "49.9",
+      "value": 0,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737293688175"
+        },
+        "source": "employment_integration",
+        "dataType": "agriculture_employment",
+        "status": "processed",
+        "lastUpdated": "2025-01-19T13:34:48Z"
+      }
+    },
+    {
+      "indicator": "Share of employment in agriculture in total employment - ILO Modelled Estimates",
+      "sex": "Female",
+      "year": 2021,
+      "element": "ILO - ILO Modelled Estimates",
+      "source": "%",
+      "unit": "49.3",
+      "value": 0,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737293688176"
+        },
+        "source": "employment_integration",
+        "dataType": "agriculture_employment",
+        "status": "processed",
+        "lastUpdated": "2025-01-19T13:34:48Z"
+      }
+    },
+    {
+      "indicator": "Share of employment in agriculture in total employment - ILO Modelled Estimates",
+      "sex": "Female",
+      "year": 2022,
+      "element": "ILO - ILO Modelled Estimates",
+      "source": "%",
+      "unit": "48.2",
+      "value": 0,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737293688176"
+        },
+        "source": "employment_integration",
+        "dataType": "agriculture_employment",
+        "status": "processed",
+        "lastUpdated": "2025-01-19T13:34:48Z"
+      }
+    },
+    {
+      "indicator": "Agriculture value added per worker (constant 2015 US$)",
+      "sex": "Total",
+      "year": 2020,
+      "element": "ILO - Modelled Estimates;FAOSTAT - Value added (2015 US$)",
+      "source": "USD",
+      "unit": "1806.39",
+      "value": 0,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737293688176"
+        },
+        "source": "employment_integration",
+        "dataType": "agriculture_employment",
+        "status": "processed",
+        "lastUpdated": "2025-01-19T13:34:48Z"
+      }
+    },
+    {
+      "indicator": "Agriculture value added per worker (constant 2015 US$)",
+      "sex": "Total",
+      "year": 2021,
+      "element": "ILO - Modelled Estimates;FAOSTAT - Value added (2015 US$)",
+      "source": "USD",
+      "unit": "1838.84",
+      "value": 0,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737293688176"
+        },
+        "source": "employment_integration",
+        "dataType": "agriculture_employment",
+        "status": "processed",
+        "lastUpdated": "2025-01-19T13:34:48Z"
+      }
+    },
+    {
+      "indicator": "Agriculture value added per worker (constant 2015 US$)",
+      "sex": "Total",
+      "year": 2022,
+      "element": "ILO - Modelled Estimates;FAOSTAT - Value added (2015 US$)",
+      "source": "USD",
+      "unit": "1574.42",
+      "value": 0,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737293688176"
+        },
+        "source": "employment_integration",
+        "dataType": "agriculture_employment",
+        "status": "processed",
+        "lastUpdated": "2025-01-19T13:34:48Z"
+      }
+    },
+    {
+      "indicator": "Employment in agriculture by age, total (15+)",
+      "sex": "Total",
+      "year": 2021,
+      "element": "Labour force survey",
+      "source": "1000 No",
+      "unit": "3363.66",
+      "value": 0,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737293688176"
+        },
+        "source": "employment_integration",
+        "dataType": "agriculture_employment",
+        "status": "processed",
+        "lastUpdated": "2025-01-19T13:34:48Z"
+      }
+    },
+    {
+      "indicator": "Employment in agriculture by age, total (15+)",
+      "sex": "Total",
+      "year": 2022,
+      "element": "Labour force survey",
+      "source": "1000 No",
+      "unit": "3149.00",
+      "value": 0,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737293688176"
+        },
+        "source": "employment_integration",
+        "dataType": "agriculture_employment",
+        "status": "processed",
+        "lastUpdated": "2025-01-19T13:34:48Z"
+      }
+    },
+    {
+      "indicator": "Employment in agriculture by age, total (15+)",
+      "sex": "Male",
+      "year": 2021,
+      "element": "Labour force survey",
+      "source": "1000 No",
+      "unit": "2286.96",
+      "value": 0,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737293688176"
+        },
+        "source": "employment_integration",
+        "dataType": "agriculture_employment",
+        "status": "processed",
+        "lastUpdated": "2025-01-19T13:34:48Z"
+      }
+    },
+    {
+      "indicator": "Employment in agriculture by age, total (15+)",
+      "sex": "Male",
+      "year": 2022,
+      "element": "Labour force survey",
+      "source": "1000 No",
+      "unit": "2200.47",
+      "value": 0,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737293688176"
+        },
+        "source": "employment_integration",
+        "dataType": "agriculture_employment",
+        "status": "processed",
+        "lastUpdated": "2025-01-19T13:34:48Z"
+      }
+    },
+    {
+      "indicator": "Employment in agriculture by age, total (15+)",
+      "sex": "Female",
+      "year": 2021,
+      "element": "Labour force survey",
+      "source": "1000 No",
+      "unit": "1076.69",
+      "value": 0,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737293688177"
+        },
+        "source": "employment_integration",
+        "dataType": "agriculture_employment",
+        "status": "processed",
+        "lastUpdated": "2025-01-19T13:34:48Z"
+      }
+    },
+    {
+      "indicator": "Employment in agriculture by age, total (15+)",
+      "sex": "Female",
+      "year": 2022,
+      "element": "Labour force survey",
+      "source": "1000 No",
+      "unit": "948.53",
+      "value": 0,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737293688177"
+        },
+        "source": "employment_integration",
+        "dataType": "agriculture_employment",
+        "status": "processed",
+        "lastUpdated": "2025-01-19T13:34:48Z"
+      }
+    },
+    {
+      "indicator": "Mean weekly hours actually worked per employed person in agriculture",
+      "sex": "Total",
+      "year": 2021,
+      "element": "Labour force survey",
+      "source": "No",
+      "unit": "38",
+      "value": 0,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737293688177"
+        },
+        "source": "employment_integration",
+        "dataType": "agriculture_employment",
+        "status": "processed",
+        "lastUpdated": "2025-01-19T13:34:48Z"
+      }
+    },
+    {
+      "indicator": "Mean weekly hours actually worked per employed person in agriculture",
+      "sex": "Total",
+      "year": 2022,
+      "element": "Labour force survey",
+      "source": "No",
+      "unit": "37",
+      "value": 0,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737293688177"
+        },
+        "source": "employment_integration",
+        "dataType": "agriculture_employment",
+        "status": "processed",
+        "lastUpdated": "2025-01-19T13:34:48Z"
+      }
+    },
+    {
+      "indicator": "Mean weekly hours actually worked per employed person in agriculture",
+      "sex": "Male",
+      "year": 2021,
+      "element": "Labour force survey",
+      "source": "No",
+      "unit": "44",
+      "value": 0,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737293688177"
+        },
+        "source": "employment_integration",
+        "dataType": "agriculture_employment",
+        "status": "processed",
+        "lastUpdated": "2025-01-19T13:34:48Z"
+      }
+    },
+    {
+      "indicator": "Mean weekly hours actually worked per employed person in agriculture",
+      "sex": "Male",
+      "year": 2022,
+      "element": "Labour force survey",
+      "source": "No",
+      "unit": "42",
+      "value": 0,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737293688177"
+        },
+        "source": "employment_integration",
+        "dataType": "agriculture_employment",
+        "status": "processed",
+        "lastUpdated": "2025-01-19T13:34:48Z"
+      }
+    },
+    {
+      "indicator": "Mean weekly hours actually worked per employed person in agriculture",
+      "sex": "Female",
+      "year": 2021,
+      "element": "Labour force survey",
+      "source": "No",
+      "unit": "27",
+      "value": 0,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737293688177"
+        },
+        "source": "employment_integration",
+        "dataType": "agriculture_employment",
+        "status": "processed",
+        "lastUpdated": "2025-01-19T13:34:48Z"
+      }
+    },
+    {
+      "indicator": "Mean weekly hours actually worked per employed person in agriculture",
+      "sex": "Female",
+      "year": 2022,
+      "element": "Labour force survey",
+      "source": "No",
+      "unit": "26",
+      "value": 0,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737293688177"
+        },
+        "source": "employment_integration",
+        "dataType": "agriculture_employment",
+        "status": "processed",
+        "lastUpdated": "2025-01-19T13:34:48Z"
+      }
+    },
+    {
+      "indicator": "Mean weekly hours actually worked per employee in agriculture",
+      "sex": "Total",
+      "year": 2021,
+      "element": "Labour force survey",
+      "source": "No",
+      "unit": "46",
+      "value": 0,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737293688177"
+        },
+        "source": "employment_integration",
+        "dataType": "agriculture_employment",
+        "status": "processed",
+        "lastUpdated": "2025-01-19T13:34:48Z"
+      }
+    },
+    {
+      "indicator": "Mean weekly hours actually worked per employee in agriculture",
+      "sex": "Total",
+      "year": 2022,
+      "element": "Labour force survey",
+      "source": "No",
+      "unit": "44",
+      "value": 0,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737293688177"
+        },
+        "source": "employment_integration",
+        "dataType": "agriculture_employment",
+        "status": "processed",
+        "lastUpdated": "2025-01-19T13:34:48Z"
+      }
+    },
+    {
+      "indicator": "Mean weekly hours actually worked per employee in agriculture",
+      "sex": "Male",
+      "year": 2021,
+      "element": "Labour force survey",
+      "source": "No",
+      "unit": "46",
+      "value": 0,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737293688178"
+        },
+        "source": "employment_integration",
+        "dataType": "agriculture_employment",
+        "status": "processed",
+        "lastUpdated": "2025-01-19T13:34:48Z"
+      }
+    },
+    {
+      "indicator": "Mean weekly hours actually worked per employee in agriculture",
+      "sex": "Male",
+      "year": 2022,
+      "element": "Labour force survey",
+      "source": "No",
+      "unit": "45",
+      "value": 0,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737293688178"
+        },
+        "source": "employment_integration",
+        "dataType": "agriculture_employment",
+        "status": "processed",
+        "lastUpdated": "2025-01-19T13:34:48Z"
+      }
+    },
+    {
+      "indicator": "Mean weekly hours actually worked per employee in agriculture",
+      "sex": "Female",
+      "year": 2021,
+      "element": "Labour force survey",
+      "source": "No",
+      "unit": "44",
+      "value": 0,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737293688178"
+        },
+        "source": "employment_integration",
+        "dataType": "agriculture_employment",
+        "status": "processed",
+        "lastUpdated": "2025-01-19T13:34:48Z"
+      }
+    },
+    {
+      "indicator": "Mean weekly hours actually worked per employee in agriculture",
+      "sex": "Female",
+      "year": 2022,
+      "element": "Labour force survey",
+      "source": "No",
+      "unit": "42",
+      "value": 0,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737293688178"
+        },
+        "source": "employment_integration",
+        "dataType": "agriculture_employment",
+        "status": "processed",
+        "lastUpdated": "2025-01-19T13:34:48Z"
+      }
+    }
+  ]
+}]

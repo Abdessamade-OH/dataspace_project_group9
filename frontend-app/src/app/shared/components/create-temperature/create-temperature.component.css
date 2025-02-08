@@ -1,0 +1,7 @@
+/* Basic styling for the create temperature form */
+h3 {
+    margin-bottom: 20px;
+}
+.form-group {
+    text-align: left;
+}

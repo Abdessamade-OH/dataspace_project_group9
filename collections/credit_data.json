@@ -1,0 +1,549 @@
+[{
+  "_id": {
+    "$oid": "678ceb3335f96e73172a8b33"
+  },
+  "collection": "credit_data",
+  "database": "agriculture_data",
+  "documents": [
+    {
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737288499251"
+        },
+        "source": "credit_integration",
+        "dataType": "agriculture_credit",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T12:08:19Z"
+      },
+      "credit": {
+        "type": "Credit to Agriculture Forestry and Fishing",
+        "measurement": {
+          "value": 25292.64261,
+          "unit": "million SLC",
+          "year": 2010
+        }
+      }
+    },
+    {
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737288499261"
+        },
+        "source": "credit_integration",
+        "dataType": "agriculture_credit",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T12:08:19Z"
+      },
+      "credit": {
+        "type": "Credit to Agriculture Forestry and Fishing",
+        "measurement": {
+          "value": 28399.61255,
+          "unit": "million SLC",
+          "year": 2011
+        }
+      }
+    },
+    {
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737288499262"
+        },
+        "source": "credit_integration",
+        "dataType": "agriculture_credit",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T12:08:19Z"
+      },
+      "credit": {
+        "type": "Credit to Agriculture Forestry and Fishing",
+        "measurement": {
+          "value": 28006.77675,
+          "unit": "million SLC",
+          "year": 2012
+        }
+      }
+    },
+    {
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737288499262"
+        },
+        "source": "credit_integration",
+        "dataType": "agriculture_credit",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T12:08:19Z"
+      },
+      "credit": {
+        "type": "Credit to Agriculture Forestry and Fishing",
+        "measurement": {
+          "value": 29007.51358,
+          "unit": "million SLC",
+          "year": 2013
+        }
+      }
+    },
+    {
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737288499262"
+        },
+        "source": "credit_integration",
+        "dataType": "agriculture_credit",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T12:08:19Z"
+      },
+      "credit": {
+        "type": "Credit to Agriculture Forestry and Fishing",
+        "measurement": {
+          "value": 29853.86074,
+          "unit": "million SLC",
+          "year": 2014
+        }
+      }
+    },
+    {
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737288499262"
+        },
+        "source": "credit_integration",
+        "dataType": "agriculture_credit",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T12:08:19Z"
+      },
+      "credit": {
+        "type": "Credit to Agriculture Forestry and Fishing",
+        "measurement": {
+          "value": 33475.45731,
+          "unit": "million SLC",
+          "year": 2015
+        }
+      }
+    },
+    {
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737288499262"
+        },
+        "source": "credit_integration",
+        "dataType": "agriculture_credit",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T12:08:19Z"
+      },
+      "credit": {
+        "type": "Credit to Agriculture Forestry and Fishing",
+        "measurement": {
+          "value": 29838.20215,
+          "unit": "million SLC",
+          "year": 2016
+        }
+      }
+    },
+    {
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737288499263"
+        },
+        "source": "credit_integration",
+        "dataType": "agriculture_credit",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T12:08:19Z"
+      },
+      "credit": {
+        "type": "Credit to Agriculture Forestry and Fishing",
+        "measurement": {
+          "value": 30532.301,
+          "unit": "million SLC",
+          "year": 2017
+        }
+      }
+    },
+    {
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737288499263"
+        },
+        "source": "credit_integration",
+        "dataType": "agriculture_credit",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T12:08:19Z"
+      },
+      "credit": {
+        "type": "Credit to Agriculture Forestry and Fishing",
+        "measurement": {
+          "value": 35921.08066,
+          "unit": "million SLC",
+          "year": 2018
+        }
+      }
+    },
+    {
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737288499263"
+        },
+        "source": "credit_integration",
+        "dataType": "agriculture_credit",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T12:08:19Z"
+      },
+      "credit": {
+        "type": "Credit to Agriculture Forestry and Fishing",
+        "measurement": {
+          "value": 38331.34359,
+          "unit": "million SLC",
+          "year": 2019
+        }
+      }
+    },
+    {
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737288499263"
+        },
+        "source": "credit_integration",
+        "dataType": "agriculture_credit",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T12:08:19Z"
+      },
+      "credit": {
+        "type": "Credit to Agriculture Forestry and Fishing",
+        "measurement": {
+          "value": 36000,
+          "unit": "million SLC",
+          "year": 2020
+        }
+      }
+    },
+    {
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737288499263"
+        },
+        "source": "credit_integration",
+        "dataType": "agriculture_credit",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T12:08:19Z"
+      },
+      "credit": {
+        "type": "Credit to Agriculture Forestry and Fishing",
+        "measurement": {
+          "value": 38700,
+          "unit": "million SLC",
+          "year": 2021
+        }
+      }
+    },
+    {
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737288499263"
+        },
+        "source": "credit_integration",
+        "dataType": "agriculture_credit",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T12:08:19Z"
+      },
+      "credit": {
+        "type": "Credit to Agriculture Forestry and Fishing",
+        "measurement": {
+          "value": 41800,
+          "unit": "million SLC",
+          "year": 2022
+        }
+      }
+    },
+    {
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737288499264"
+        },
+        "source": "credit_integration",
+        "dataType": "agriculture_credit",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T12:08:19Z"
+      },
+      "credit": {
+        "type": "Credit to Agriculture Forestry and Fishing",
+        "measurement": {
+          "value": 41600,
+          "unit": "million SLC",
+          "year": 2023
+        }
+      }
+    },
+    {
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737288499264"
+        },
+        "source": "credit_integration",
+        "dataType": "agriculture_credit",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T12:08:19Z"
+      },
+      "credit": {
+        "type": "Credit to Agriculture and Fishery",
+        "measurement": {
+          "value": 25292.64261,
+          "unit": "million SLC",
+          "year": 2010
+        }
+      }
+    },
+    {
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737288499264"
+        },
+        "source": "credit_integration",
+        "dataType": "agriculture_credit",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T12:08:19Z"
+      },
+      "credit": {
+        "type": "Credit to Agriculture and Fishery",
+        "measurement": {
+          "value": 28399.61255,
+          "unit": "million SLC",
+          "year": 2011
+        }
+      }
+    },
+    {
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737288499264"
+        },
+        "source": "credit_integration",
+        "dataType": "agriculture_credit",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T12:08:19Z"
+      },
+      "credit": {
+        "type": "Credit to Agriculture and Fishery",
+        "measurement": {
+          "value": 28006.77675,
+          "unit": "million SLC",
+          "year": 2012
+        }
+      }
+    },
+    {
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737288499264"
+        },
+        "source": "credit_integration",
+        "dataType": "agriculture_credit",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T12:08:19Z"
+      },
+      "credit": {
+        "type": "Credit to Agriculture and Fishery",
+        "measurement": {
+          "value": 29007.51358,
+          "unit": "million SLC",
+          "year": 2013
+        }
+      }
+    },
+    {
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737288499264"
+        },
+        "source": "credit_integration",
+        "dataType": "agriculture_credit",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T12:08:19Z"
+      },
+      "credit": {
+        "type": "Credit to Agriculture and Fishery",
+        "measurement": {
+          "value": 29853.86074,
+          "unit": "million SLC",
+          "year": 2014
+        }
+      }
+    },
+    {
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737288499265"
+        },
+        "source": "credit_integration",
+        "dataType": "agriculture_credit",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T12:08:19Z"
+      },
+      "credit": {
+        "type": "Credit to Agriculture and Fishery",
+        "measurement": {
+          "value": 33475.45731,
+          "unit": "million SLC",
+          "year": 2015
+        }
+      }
+    },
+    {
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737288499265"
+        },
+        "source": "credit_integration",
+        "dataType": "agriculture_credit",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T12:08:19Z"
+      },
+      "credit": {
+        "type": "Credit to Agriculture and Fishery",
+        "measurement": {
+          "value": 29838.20215,
+          "unit": "million SLC",
+          "year": 2016
+        }
+      }
+    },
+    {
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737288499267"
+        },
+        "source": "credit_integration",
+        "dataType": "agriculture_credit",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T12:08:19Z"
+      },
+      "credit": {
+        "type": "Credit to Agriculture and Fishery",
+        "measurement": {
+          "value": 30532.301,
+          "unit": "million SLC",
+          "year": 2017
+        }
+      }
+    },
+    {
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737288499267"
+        },
+        "source": "credit_integration",
+        "dataType": "agriculture_credit",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T12:08:19Z"
+      },
+      "credit": {
+        "type": "Credit to Agriculture and Fishery",
+        "measurement": {
+          "value": 35921.08066,
+          "unit": "million SLC",
+          "year": 2018
+        }
+      }
+    },
+    {
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737288499267"
+        },
+        "source": "credit_integration",
+        "dataType": "agriculture_credit",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T12:08:19Z"
+      },
+      "credit": {
+        "type": "Credit to Agriculture and Fishery",
+        "measurement": {
+          "value": 38331.34359,
+          "unit": "million SLC",
+          "year": 2019
+        }
+      }
+    },
+    {
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737288499268"
+        },
+        "source": "credit_integration",
+        "dataType": "agriculture_credit",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T12:08:19Z"
+      },
+      "credit": {
+        "type": "Credit to Agriculture and Fishery",
+        "measurement": {
+          "value": 36000,
+          "unit": "million SLC",
+          "year": 2020
+        }
+      }
+    },
+    {
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737288499268"
+        },
+        "source": "credit_integration",
+        "dataType": "agriculture_credit",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T12:08:19Z"
+      },
+      "credit": {
+        "type": "Credit to Agriculture and Fishery",
+        "measurement": {
+          "value": 38700,
+          "unit": "million SLC",
+          "year": 2021
+        }
+      }
+    },
+    {
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737288499268"
+        },
+        "source": "credit_integration",
+        "dataType": "agriculture_credit",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T12:08:19Z"
+      },
+      "credit": {
+        "type": "Credit to Agriculture and Fishery",
+        "measurement": {
+          "value": 41800,
+          "unit": "million SLC",
+          "year": 2022
+        }
+      }
+    }
+  ]
+}]

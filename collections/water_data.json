@@ -1,0 +1,225 @@
+[{
+  "_id": {
+    "$oid": "678c2894da3c1e5bbe036b4c"
+  },
+  "collection": "water_data",
+  "database": "agriculture_data",
+  "documents": [
+    {
+      "name": "Barrage Abdelmoumen",
+      "type": "Abdelmoumen",
+      "longitude": 141748.535304,
+      "latitude": 424137.036594,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737238675817"
+        },
+        "source": "infrastructure_integration",
+        "dataType": "barrage",
+        "status": "processed",
+        "region": "Souss-Massa",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-18T22:17:55Z"
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          141748.535304,
+          424137.036594
+        ]
+      }
+    },
+    {
+      "name": "Barrage  Dkhila",
+      "type": "Dkhila",
+      "longitude": 126869.237676,
+      "latitude": 400636.954816,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737238675834"
+        },
+        "source": "infrastructure_integration",
+        "dataType": "barrage",
+        "status": "processed",
+        "region": "Souss-Massa",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-18T22:17:55Z"
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          126869.237676,
+          400636.954816
+        ]
+      }
+    },
+    {
+      "name": "Barrage  Prince Moulay Abde",
+      "type": "Prince Moulay Abde",
+      "longitude": 89423.382144,
+      "latitude": 425304.392871,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737238675835"
+        },
+        "source": "infrastructure_integration",
+        "dataType": "barrage",
+        "status": "processed",
+        "region": "Souss-Massa",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-18T22:17:55Z"
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          89423.382144,
+          425304.392871
+        ]
+      }
+    },
+    {
+      "name": "Barrage Imi El Kheng",
+      "type": "Imi El Kheng",
+      "longitude": 197890.161927,
+      "latitude": 417427.829078,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737238675835"
+        },
+        "source": "infrastructure_integration",
+        "dataType": "barrage",
+        "status": "processed",
+        "region": "Souss-Massa",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-18T22:17:55Z"
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          197890.161927,
+          417427.829078
+        ]
+      }
+    },
+    {
+      "name": "Barrage  Aoulouz",
+      "type": "Aoulouz",
+      "longitude": 242123.297009,
+      "latitude": 415501.084472,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737238675835"
+        },
+        "source": "infrastructure_integration",
+        "dataType": "barrage",
+        "status": "processed",
+        "region": "Souss-Massa",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-18T22:17:55Z"
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          242123.297009,
+          415501.084472
+        ]
+      }
+    },
+    {
+      "name": "Barrage Mokhtar Soussi",
+      "type": "Mokhtar Soussi",
+      "longitude": 253304.275225,
+      "latitude": 416774.815046,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737238675836"
+        },
+        "source": "infrastructure_integration",
+        "dataType": "barrage",
+        "status": "processed",
+        "region": "Souss-Massa",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-18T22:17:55Z"
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          253304.275225,
+          416774.815046
+        ]
+      }
+    },
+    {
+      "name": "Barrage Ahl Souss",
+      "type": "Ahl Souss",
+      "longitude": 141462.956282,
+      "latitude": 345112.83516,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737238675837"
+        },
+        "source": "infrastructure_integration",
+        "dataType": "barrage",
+        "status": "processed",
+        "region": "Souss-Massa",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-18T22:17:55Z"
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          141462.956282,
+          345112.83516
+        ]
+      }
+    },
+    {
+      "name": "Barrage Youssef Ben Tachfi",
+      "type": "Youssef Ben Tachfi",
+      "longitude": 108889.122884,
+      "latitude": 318481.928406,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737238675837"
+        },
+        "source": "infrastructure_integration",
+        "dataType": "barrage",
+        "status": "processed",
+        "region": "Souss-Massa",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-18T22:17:55Z"
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          108889.122884,
+          318481.928406
+        ]
+      }
+    },
+    {
+      "name": "Barrage Sidi Abdellah",
+      "type": "Sidi Abdellah",
+      "longitude": 171695,
+      "latitude": 408596,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737238675838"
+        },
+        "source": "infrastructure_integration",
+        "dataType": "barrage",
+        "status": "processed",
+        "region": "Souss-Massa",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-18T22:17:55Z"
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          171695,
+          408596
+        ]
+      }
+    }
+  ]
+}]

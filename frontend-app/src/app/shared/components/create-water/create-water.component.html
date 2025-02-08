@@ -1,0 +1,61 @@
+<div *ngIf="title.toLowerCase() === 'water'">
+    <h3>Create Water Data</h3>
+    <form (ngSubmit)="onSubmit()">
+      <!-- Main Fields -->
+      <div class="form-group my-2">
+        <label for="name">Name</label>
+        <input 
+          id="name" 
+          type="text" 
+          class="form-control" 
+          [(ngModel)]="waterForm.name" 
+          name="name" 
+          placeholder="Enter name (e.g., Barrage Abdelmoumen)" 
+          required>
+      </div>
+      <div class="form-group my-2">
+        <label for="type">Type</label>
+        <input 
+          id="type" 
+          type="text" 
+          class="form-control" 
+          [(ngModel)]="waterForm.type" 
+          name="type" 
+          placeholder="Enter type (e.g., Abdelmoumen)" 
+          required>
+      </div>
+      <div class="form-group my-2">
+        <label for="longitude">Longitude</label>
+        <input 
+          id="longitude" 
+          type="number" 
+          class="form-control" 
+          [(ngModel)]="waterForm.longitude" 
+          name="longitude" 
+          placeholder="Enter longitude (e.g., 141748.535304)" 
+          required>
+      </div>
+      <div class="form-group my-2">
+        <label for="latitude">Latitude</label>
+        <input 
+          id="latitude" 
+          type="number" 
+          class="form-control" 
+          [(ngModel)]="waterForm.latitude" 
+          name="latitude" 
+          placeholder="Enter latitude (e.g., 424137.036594)" 
+          required>
+      </div>
+      <!-- Metadata is set automatically; not displayed -->
+      <button type="submit" class="btn btn-primary mt-3">Create</button>
+    </form>
+  
+    <!-- Success and Error Messages -->
+    <div *ngIf="successMessage" class="alert alert-success mt-3">
+      {{ successMessage }}
+    </div>
+    <div *ngIf="errorMessage" class="alert alert-danger mt-3">
+      {{ errorMessage }}
+    </div>
+  </div>
+  

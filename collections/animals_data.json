@@ -1,0 +1,2817 @@
+[{
+  "_id": {
+    "$oid": "678cde0e35f96e73172a8b30"
+  },
+  "collection": "animals_data",
+  "database": "agriculture_data",
+  "documents": [
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Cattle fat unrendered",
+      "year": 2020,
+      "unit": "An",
+      "value": 1500000,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285132794"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:12Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Cattle fat unrendered",
+        "measurement": {
+          "value": 1500000,
+          "unit": "An",
+          "year": 2020
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Cattle fat unrendered",
+      "year": 2021,
+      "unit": "An",
+      "value": 1430481,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133014"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Cattle fat unrendered",
+        "measurement": {
+          "value": 1430481,
+          "unit": "An",
+          "year": 2021
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Cattle fat unrendered",
+      "year": 2022,
+      "unit": "An",
+      "value": 1409102,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133014"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Cattle fat unrendered",
+        "measurement": {
+          "value": 1409102,
+          "unit": "An",
+          "year": 2022
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Cattle fat unrendered",
+      "year": 2023,
+      "unit": "An",
+      "value": 1400000,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133014"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Cattle fat unrendered",
+        "measurement": {
+          "value": 1400000,
+          "unit": "An",
+          "year": 2023
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Edible offal of cattle fresh chilled or frozen",
+      "year": 2020,
+      "unit": "An",
+      "value": 1500000,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133014"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Edible offal of cattle fresh chilled or frozen",
+        "measurement": {
+          "value": 1500000,
+          "unit": "An",
+          "year": 2020
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Edible offal of cattle fresh chilled or frozen",
+      "year": 2021,
+      "unit": "An",
+      "value": 1430481,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133015"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Edible offal of cattle fresh chilled or frozen",
+        "measurement": {
+          "value": 1430481,
+          "unit": "An",
+          "year": 2021
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Edible offal of cattle fresh chilled or frozen",
+      "year": 2022,
+      "unit": "An",
+      "value": 1409102,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133015"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Edible offal of cattle fresh chilled or frozen",
+        "measurement": {
+          "value": 1409102,
+          "unit": "An",
+          "year": 2022
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Edible offal of cattle fresh chilled or frozen",
+      "year": 2023,
+      "unit": "An",
+      "value": 1400000,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133015"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Edible offal of cattle fresh chilled or frozen",
+        "measurement": {
+          "value": 1400000,
+          "unit": "An",
+          "year": 2023
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Edible offal of goat fresh chilled or frozen",
+      "year": 2020,
+      "unit": "An",
+      "value": 2300745,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133015"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Edible offal of goat fresh chilled or frozen",
+        "measurement": {
+          "value": 2300745,
+          "unit": "An",
+          "year": 2020
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Edible offal of goat fresh chilled or frozen",
+      "year": 2021,
+      "unit": "An",
+      "value": 2407967,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133016"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Edible offal of goat fresh chilled or frozen",
+        "measurement": {
+          "value": 2407967,
+          "unit": "An",
+          "year": 2021
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Edible offal of goat fresh chilled or frozen",
+      "year": 2022,
+      "unit": "An",
+      "value": 2356700,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133016"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Edible offal of goat fresh chilled or frozen",
+        "measurement": {
+          "value": 2356700,
+          "unit": "An",
+          "year": 2022
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Edible offal of goat fresh chilled or frozen",
+      "year": 2023,
+      "unit": "An",
+      "value": 2207995,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133016"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Edible offal of goat fresh chilled or frozen",
+        "measurement": {
+          "value": 2207995,
+          "unit": "An",
+          "year": 2023
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Edible offal of pigs fresh chilled or frozen",
+      "year": 2020,
+      "unit": "An",
+      "value": 12374,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133016"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Edible offal of pigs fresh chilled or frozen",
+        "measurement": {
+          "value": 12374,
+          "unit": "An",
+          "year": 2020
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Edible offal of pigs fresh chilled or frozen",
+      "year": 2021,
+      "unit": "An",
+      "value": 12452,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133016"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Edible offal of pigs fresh chilled or frozen",
+        "measurement": {
+          "value": 12452,
+          "unit": "An",
+          "year": 2021
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Edible offal of pigs fresh chilled or frozen",
+      "year": 2022,
+      "unit": "An",
+      "value": 12475,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133017"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Edible offal of pigs fresh chilled or frozen",
+        "measurement": {
+          "value": 12475,
+          "unit": "An",
+          "year": 2022
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Edible offal of pigs fresh chilled or frozen",
+      "year": 2023,
+      "unit": "An",
+      "value": 12499,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133017"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Edible offal of pigs fresh chilled or frozen",
+        "measurement": {
+          "value": 12499,
+          "unit": "An",
+          "year": 2023
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Edible offal of sheep fresh chilled or frozen",
+      "year": 2020,
+      "unit": "An",
+      "value": 12727492,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133017"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Edible offal of sheep fresh chilled or frozen",
+        "measurement": {
+          "value": 12727492,
+          "unit": "An",
+          "year": 2020
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Edible offal of sheep fresh chilled or frozen",
+      "year": 2021,
+      "unit": "An",
+      "value": 13230535,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133017"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Edible offal of sheep fresh chilled or frozen",
+        "measurement": {
+          "value": 13230535,
+          "unit": "An",
+          "year": 2021
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Edible offal of sheep fresh chilled or frozen",
+      "year": 2022,
+      "unit": "An",
+      "value": 12821584,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133017"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Edible offal of sheep fresh chilled or frozen",
+        "measurement": {
+          "value": 12821584,
+          "unit": "An",
+          "year": 2022
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Edible offal of sheep fresh chilled or frozen",
+      "year": 2023,
+      "unit": "An",
+      "value": 12274417,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133018"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Edible offal of sheep fresh chilled or frozen",
+        "measurement": {
+          "value": 12274417,
+          "unit": "An",
+          "year": 2023
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Edible offals of camels and other camelids fresh chilled or frozen",
+      "year": 2020,
+      "unit": "An",
+      "value": 16153,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133018"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Edible offals of camels and other camelids fresh chilled or frozen",
+        "measurement": {
+          "value": 16153,
+          "unit": "An",
+          "year": 2020
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Edible offals of camels and other camelids fresh chilled or frozen",
+      "year": 2021,
+      "unit": "An",
+      "value": 16156,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133018"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Edible offals of camels and other camelids fresh chilled or frozen",
+        "measurement": {
+          "value": 16156,
+          "unit": "An",
+          "year": 2021
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Edible offals of camels and other camelids fresh chilled or frozen",
+      "year": 2022,
+      "unit": "An",
+      "value": 16140,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133018"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Edible offals of camels and other camelids fresh chilled or frozen",
+        "measurement": {
+          "value": 16140,
+          "unit": "An",
+          "year": 2022
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Edible offals of camels and other camelids fresh chilled or frozen",
+      "year": 2023,
+      "unit": "An",
+      "value": 16115,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133018"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Edible offals of camels and other camelids fresh chilled or frozen",
+        "measurement": {
+          "value": 16115,
+          "unit": "An",
+          "year": 2023
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Edible offals of horses and other equines fresh chilled or frozen",
+      "year": 2020,
+      "unit": "An",
+      "value": 17287,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133019"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Edible offals of horses and other equines fresh chilled or frozen",
+        "measurement": {
+          "value": 17287,
+          "unit": "An",
+          "year": 2020
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Edible offals of horses and other equines fresh chilled or frozen",
+      "year": 2021,
+      "unit": "An",
+      "value": 15650,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133019"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Edible offals of horses and other equines fresh chilled or frozen",
+        "measurement": {
+          "value": 15650,
+          "unit": "An",
+          "year": 2021
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Edible offals of horses and other equines fresh chilled or frozen",
+      "year": 2022,
+      "unit": "An",
+      "value": 15532,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133019"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Edible offals of horses and other equines fresh chilled or frozen",
+        "measurement": {
+          "value": 15532,
+          "unit": "An",
+          "year": 2022
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Edible offals of horses and other equines fresh chilled or frozen",
+      "year": 2023,
+      "unit": "An",
+      "value": 15414,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133019"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Edible offals of horses and other equines fresh chilled or frozen",
+        "measurement": {
+          "value": 15414,
+          "unit": "An",
+          "year": 2023
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Fat of camels",
+      "year": 2020,
+      "unit": "An",
+      "value": 16153,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133020"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Fat of camels",
+        "measurement": {
+          "value": 16153,
+          "unit": "An",
+          "year": 2020
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Fat of camels",
+      "year": 2021,
+      "unit": "An",
+      "value": 16156,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133020"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Fat of camels",
+        "measurement": {
+          "value": 16156,
+          "unit": "An",
+          "year": 2021
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Fat of camels",
+      "year": 2022,
+      "unit": "An",
+      "value": 16140,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133029"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Fat of camels",
+        "measurement": {
+          "value": 16140,
+          "unit": "An",
+          "year": 2022
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Fat of camels",
+      "year": 2023,
+      "unit": "An",
+      "value": 16115,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133029"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Fat of camels",
+        "measurement": {
+          "value": 16115,
+          "unit": "An",
+          "year": 2023
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Fat of pigs",
+      "year": 2020,
+      "unit": "An",
+      "value": 12374,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133030"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Fat of pigs",
+        "measurement": {
+          "value": 12374,
+          "unit": "An",
+          "year": 2020
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Fat of pigs",
+      "year": 2021,
+      "unit": "An",
+      "value": 12452,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133030"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Fat of pigs",
+        "measurement": {
+          "value": 12452,
+          "unit": "An",
+          "year": 2021
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Fat of pigs",
+      "year": 2022,
+      "unit": "An",
+      "value": 12475,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133030"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Fat of pigs",
+        "measurement": {
+          "value": 12475,
+          "unit": "An",
+          "year": 2022
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Fat of pigs",
+      "year": 2023,
+      "unit": "An",
+      "value": 12499,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133031"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Fat of pigs",
+        "measurement": {
+          "value": 12499,
+          "unit": "An",
+          "year": 2023
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Goat fat unrendered",
+      "year": 2020,
+      "unit": "An",
+      "value": 2300745,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133031"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Goat fat unrendered",
+        "measurement": {
+          "value": 2300745,
+          "unit": "An",
+          "year": 2020
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Goat fat unrendered",
+      "year": 2021,
+      "unit": "An",
+      "value": 2407967,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133031"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Goat fat unrendered",
+        "measurement": {
+          "value": 2407967,
+          "unit": "An",
+          "year": 2021
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Goat fat unrendered",
+      "year": 2022,
+      "unit": "An",
+      "value": 2356700,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133031"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Goat fat unrendered",
+        "measurement": {
+          "value": 2356700,
+          "unit": "An",
+          "year": 2022
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Goat fat unrendered",
+      "year": 2023,
+      "unit": "An",
+      "value": 2207995,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133032"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Goat fat unrendered",
+        "measurement": {
+          "value": 2207995,
+          "unit": "An",
+          "year": 2023
+        }
+      }
+    },
+    {
+      "category": "Laying",
+      "item": "Hen eggs in shell fresh",
+      "year": 2020,
+      "unit": "1000 An",
+      "value": 22300,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133032"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Laying",
+        "item": "Hen eggs in shell fresh",
+        "measurement": {
+          "value": 22300,
+          "unit": "1000 An",
+          "year": 2020
+        }
+      }
+    },
+    {
+      "category": "Laying",
+      "item": "Hen eggs in shell fresh",
+      "year": 2021,
+      "unit": "1000 An",
+      "value": 22300,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133032"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Laying",
+        "item": "Hen eggs in shell fresh",
+        "measurement": {
+          "value": 22300,
+          "unit": "1000 An",
+          "year": 2021
+        }
+      }
+    },
+    {
+      "category": "Laying",
+      "item": "Hen eggs in shell fresh",
+      "year": 2022,
+      "unit": "1000 An",
+      "value": 21000,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133032"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Laying",
+        "item": "Hen eggs in shell fresh",
+        "measurement": {
+          "value": 21000,
+          "unit": "1000 An",
+          "year": 2022
+        }
+      }
+    },
+    {
+      "category": "Laying",
+      "item": "Hen eggs in shell fresh",
+      "year": 2023,
+      "unit": "1000 An",
+      "value": 20000,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133033"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Laying",
+        "item": "Hen eggs in shell fresh",
+        "measurement": {
+          "value": 20000,
+          "unit": "1000 An",
+          "year": 2023
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Horse meat fresh or chilled",
+      "year": 2020,
+      "unit": "An",
+      "value": 17287,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133033"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Horse meat fresh or chilled",
+        "measurement": {
+          "value": 17287,
+          "unit": "An",
+          "year": 2020
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Horse meat fresh or chilled",
+      "year": 2021,
+      "unit": "An",
+      "value": 15650,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133033"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Horse meat fresh or chilled",
+        "measurement": {
+          "value": 15650,
+          "unit": "An",
+          "year": 2021
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Horse meat fresh or chilled",
+      "year": 2022,
+      "unit": "An",
+      "value": 15532,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133033"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Horse meat fresh or chilled",
+        "measurement": {
+          "value": 15532,
+          "unit": "An",
+          "year": 2022
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Horse meat fresh or chilled",
+      "year": 2023,
+      "unit": "An",
+      "value": 15414,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133034"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Horse meat fresh or chilled",
+        "measurement": {
+          "value": 15414,
+          "unit": "An",
+          "year": 2023
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Meat of camels fresh or chilled",
+      "year": 2020,
+      "unit": "An",
+      "value": 16153,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133034"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Meat of camels fresh or chilled",
+        "measurement": {
+          "value": 16153,
+          "unit": "An",
+          "year": 2020
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Meat of camels fresh or chilled",
+      "year": 2021,
+      "unit": "An",
+      "value": 16156,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133034"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Meat of camels fresh or chilled",
+        "measurement": {
+          "value": 16156,
+          "unit": "An",
+          "year": 2021
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Meat of camels fresh or chilled",
+      "year": 2022,
+      "unit": "An",
+      "value": 16140,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133034"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Meat of camels fresh or chilled",
+        "measurement": {
+          "value": 16140,
+          "unit": "An",
+          "year": 2022
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Meat of camels fresh or chilled",
+      "year": 2023,
+      "unit": "An",
+      "value": 16115,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133035"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Meat of camels fresh or chilled",
+        "measurement": {
+          "value": 16115,
+          "unit": "An",
+          "year": 2023
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Meat of cattle with the bone fresh or chilled",
+      "year": 2020,
+      "unit": "An",
+      "value": 1500000,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133035"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Meat of cattle with the bone fresh or chilled",
+        "measurement": {
+          "value": 1500000,
+          "unit": "An",
+          "year": 2020
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Meat of cattle with the bone fresh or chilled",
+      "year": 2021,
+      "unit": "An",
+      "value": 1430481,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133035"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Meat of cattle with the bone fresh or chilled",
+        "measurement": {
+          "value": 1430481,
+          "unit": "An",
+          "year": 2021
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Meat of cattle with the bone fresh or chilled",
+      "year": 2022,
+      "unit": "An",
+      "value": 1409102,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133036"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Meat of cattle with the bone fresh or chilled",
+        "measurement": {
+          "value": 1409102,
+          "unit": "An",
+          "year": 2022
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Meat of cattle with the bone fresh or chilled",
+      "year": 2023,
+      "unit": "An",
+      "value": 1400000,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133045"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Meat of cattle with the bone fresh or chilled",
+        "measurement": {
+          "value": 1400000,
+          "unit": "An",
+          "year": 2023
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Meat of chickens fresh or chilled",
+      "year": 2020,
+      "unit": "1000 An",
+      "value": 594444,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133045"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Meat of chickens fresh or chilled",
+        "measurement": {
+          "value": 594444,
+          "unit": "1000 An",
+          "year": 2020
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Meat of chickens fresh or chilled",
+      "year": 2021,
+      "unit": "1000 An",
+      "value": 583333,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133045"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Meat of chickens fresh or chilled",
+        "measurement": {
+          "value": 583333,
+          "unit": "1000 An",
+          "year": 2021
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Meat of chickens fresh or chilled",
+      "year": 2022,
+      "unit": "1000 An",
+      "value": 600000,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133046"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Meat of chickens fresh or chilled",
+        "measurement": {
+          "value": 600000,
+          "unit": "1000 An",
+          "year": 2022
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Meat of chickens fresh or chilled",
+      "year": 2023,
+      "unit": "1000 An",
+      "value": 627778,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133046"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Meat of chickens fresh or chilled",
+        "measurement": {
+          "value": 627778,
+          "unit": "1000 An",
+          "year": 2023
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Meat of goat fresh or chilled",
+      "year": 2020,
+      "unit": "An",
+      "value": 2300745,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133046"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Meat of goat fresh or chilled",
+        "measurement": {
+          "value": 2300745,
+          "unit": "An",
+          "year": 2020
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Meat of goat fresh or chilled",
+      "year": 2021,
+      "unit": "An",
+      "value": 2407967,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133047"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Meat of goat fresh or chilled",
+        "measurement": {
+          "value": 2407967,
+          "unit": "An",
+          "year": 2021
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Meat of goat fresh or chilled",
+      "year": 2022,
+      "unit": "An",
+      "value": 2356700,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133047"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Meat of goat fresh or chilled",
+        "measurement": {
+          "value": 2356700,
+          "unit": "An",
+          "year": 2022
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Meat of goat fresh or chilled",
+      "year": 2023,
+      "unit": "An",
+      "value": 2207995,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133047"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Meat of goat fresh or chilled",
+        "measurement": {
+          "value": 2207995,
+          "unit": "An",
+          "year": 2023
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Meat of pig with the bone fresh or chilled",
+      "year": 2020,
+      "unit": "An",
+      "value": 12374,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133047"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Meat of pig with the bone fresh or chilled",
+        "measurement": {
+          "value": 12374,
+          "unit": "An",
+          "year": 2020
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Meat of pig with the bone fresh or chilled",
+      "year": 2021,
+      "unit": "An",
+      "value": 12452,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133048"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Meat of pig with the bone fresh or chilled",
+        "measurement": {
+          "value": 12452,
+          "unit": "An",
+          "year": 2021
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Meat of pig with the bone fresh or chilled",
+      "year": 2022,
+      "unit": "An",
+      "value": 12475,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133048"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Meat of pig with the bone fresh or chilled",
+        "measurement": {
+          "value": 12475,
+          "unit": "An",
+          "year": 2022
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Meat of pig with the bone fresh or chilled",
+      "year": 2023,
+      "unit": "An",
+      "value": 12499,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133048"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Meat of pig with the bone fresh or chilled",
+        "measurement": {
+          "value": 12499,
+          "unit": "An",
+          "year": 2023
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Meat of sheep fresh or chilled",
+      "year": 2020,
+      "unit": "An",
+      "value": 12727492,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133049"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Meat of sheep fresh or chilled",
+        "measurement": {
+          "value": 12727492,
+          "unit": "An",
+          "year": 2020
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Meat of sheep fresh or chilled",
+      "year": 2021,
+      "unit": "An",
+      "value": 13230535,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133049"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Meat of sheep fresh or chilled",
+        "measurement": {
+          "value": 13230535,
+          "unit": "An",
+          "year": 2021
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Meat of sheep fresh or chilled",
+      "year": 2022,
+      "unit": "An",
+      "value": 12821584,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133049"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Meat of sheep fresh or chilled",
+        "measurement": {
+          "value": 12821584,
+          "unit": "An",
+          "year": 2022
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Meat of sheep fresh or chilled",
+      "year": 2023,
+      "unit": "An",
+      "value": 12274417,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133050"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Meat of sheep fresh or chilled",
+        "measurement": {
+          "value": 12274417,
+          "unit": "An",
+          "year": 2023
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Meat of turkeys fresh or chilled",
+      "year": 2020,
+      "unit": "1000 An",
+      "value": 22118,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133050"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Meat of turkeys fresh or chilled",
+        "measurement": {
+          "value": 22118,
+          "unit": "1000 An",
+          "year": 2020
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Meat of turkeys fresh or chilled",
+      "year": 2021,
+      "unit": "1000 An",
+      "value": 22620,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133050"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Meat of turkeys fresh or chilled",
+        "measurement": {
+          "value": 22620,
+          "unit": "1000 An",
+          "year": 2021
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Meat of turkeys fresh or chilled",
+      "year": 2022,
+      "unit": "1000 An",
+      "value": 23527,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133050"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Meat of turkeys fresh or chilled",
+        "measurement": {
+          "value": 23527,
+          "unit": "1000 An",
+          "year": 2022
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Meat of turkeys fresh or chilled",
+      "year": 2023,
+      "unit": "1000 An",
+      "value": 24452,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133051"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Meat of turkeys fresh or chilled",
+        "measurement": {
+          "value": 24452,
+          "unit": "1000 An",
+          "year": 2023
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Raw hides and skins of cattle",
+      "year": 2020,
+      "unit": "An",
+      "value": 1500000,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133051"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Raw hides and skins of cattle",
+        "measurement": {
+          "value": 1500000,
+          "unit": "An",
+          "year": 2020
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Raw hides and skins of cattle",
+      "year": 2021,
+      "unit": "An",
+      "value": 1430481,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133051"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Raw hides and skins of cattle",
+        "measurement": {
+          "value": 1430481,
+          "unit": "An",
+          "year": 2021
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Raw hides and skins of cattle",
+      "year": 2022,
+      "unit": "An",
+      "value": 1409102,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133061"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Raw hides and skins of cattle",
+        "measurement": {
+          "value": 1409102,
+          "unit": "An",
+          "year": 2022
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Raw hides and skins of cattle",
+      "year": 2023,
+      "unit": "An",
+      "value": 1400000,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133061"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Raw hides and skins of cattle",
+        "measurement": {
+          "value": 1400000,
+          "unit": "An",
+          "year": 2023
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Raw hides and skins of goats or kids",
+      "year": 2020,
+      "unit": "An",
+      "value": 2300745,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133061"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Raw hides and skins of goats or kids",
+        "measurement": {
+          "value": 2300745,
+          "unit": "An",
+          "year": 2020
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Raw hides and skins of goats or kids",
+      "year": 2021,
+      "unit": "An",
+      "value": 2407967,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133062"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Raw hides and skins of goats or kids",
+        "measurement": {
+          "value": 2407967,
+          "unit": "An",
+          "year": 2021
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Raw hides and skins of goats or kids",
+      "year": 2022,
+      "unit": "An",
+      "value": 2356700,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133062"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Raw hides and skins of goats or kids",
+        "measurement": {
+          "value": 2356700,
+          "unit": "An",
+          "year": 2022
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Raw hides and skins of goats or kids",
+      "year": 2023,
+      "unit": "An",
+      "value": 2207995,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133062"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Raw hides and skins of goats or kids",
+        "measurement": {
+          "value": 2207995,
+          "unit": "An",
+          "year": 2023
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Raw hides and skins of sheep or lambs",
+      "year": 2020,
+      "unit": "An",
+      "value": 12727492,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133062"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Raw hides and skins of sheep or lambs",
+        "measurement": {
+          "value": 12727492,
+          "unit": "An",
+          "year": 2020
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Raw hides and skins of sheep or lambs",
+      "year": 2021,
+      "unit": "An",
+      "value": 13230535,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133063"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Raw hides and skins of sheep or lambs",
+        "measurement": {
+          "value": 13230535,
+          "unit": "An",
+          "year": 2021
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Raw hides and skins of sheep or lambs",
+      "year": 2022,
+      "unit": "An",
+      "value": 12821584,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133063"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Raw hides and skins of sheep or lambs",
+        "measurement": {
+          "value": 12821584,
+          "unit": "An",
+          "year": 2022
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Raw hides and skins of sheep or lambs",
+      "year": 2023,
+      "unit": "An",
+      "value": 12274417,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133063"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Raw hides and skins of sheep or lambs",
+        "measurement": {
+          "value": 12274417,
+          "unit": "An",
+          "year": 2023
+        }
+      }
+    },
+    {
+      "category": "Milk Animals",
+      "item": "Raw milk of camel",
+      "year": 2020,
+      "unit": "An",
+      "value": 33204,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133063"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Milk Animals",
+        "item": "Raw milk of camel",
+        "measurement": {
+          "value": 33204,
+          "unit": "An",
+          "year": 2020
+        }
+      }
+    },
+    {
+      "category": "Milk Animals",
+      "item": "Raw milk of camel",
+      "year": 2021,
+      "unit": "An",
+      "value": 33688,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133064"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Milk Animals",
+        "item": "Raw milk of camel",
+        "measurement": {
+          "value": 33688,
+          "unit": "An",
+          "year": 2021
+        }
+      }
+    },
+    {
+      "category": "Milk Animals",
+      "item": "Raw milk of camel",
+      "year": 2022,
+      "unit": "An",
+      "value": 34151,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133064"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Milk Animals",
+        "item": "Raw milk of camel",
+        "measurement": {
+          "value": 34151,
+          "unit": "An",
+          "year": 2022
+        }
+      }
+    },
+    {
+      "category": "Milk Animals",
+      "item": "Raw milk of camel",
+      "year": 2023,
+      "unit": "An",
+      "value": 34614,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133065"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Milk Animals",
+        "item": "Raw milk of camel",
+        "measurement": {
+          "value": 34614,
+          "unit": "An",
+          "year": 2023
+        }
+      }
+    },
+    {
+      "category": "Milk Animals",
+      "item": "Raw milk of cattle",
+      "year": 2020,
+      "unit": "An",
+      "value": 1779230,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133065"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Milk Animals",
+        "item": "Raw milk of cattle",
+        "measurement": {
+          "value": 1779230,
+          "unit": "An",
+          "year": 2020
+        }
+      }
+    },
+    {
+      "category": "Milk Animals",
+      "item": "Raw milk of cattle",
+      "year": 2021,
+      "unit": "An",
+      "value": 1776120,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133065"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Milk Animals",
+        "item": "Raw milk of cattle",
+        "measurement": {
+          "value": 1776120,
+          "unit": "An",
+          "year": 2021
+        }
+      }
+    },
+    {
+      "category": "Milk Animals",
+      "item": "Raw milk of cattle",
+      "year": 2022,
+      "unit": "An",
+      "value": 1696204,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133066"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Milk Animals",
+        "item": "Raw milk of cattle",
+        "measurement": {
+          "value": 1696204,
+          "unit": "An",
+          "year": 2022
+        }
+      }
+    },
+    {
+      "category": "Milk Animals",
+      "item": "Raw milk of cattle",
+      "year": 2023,
+      "unit": "An",
+      "value": 1580186,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133066"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Milk Animals",
+        "item": "Raw milk of cattle",
+        "measurement": {
+          "value": 1580186,
+          "unit": "An",
+          "year": 2023
+        }
+      }
+    },
+    {
+      "category": "Milk Animals",
+      "item": "Raw milk of goats",
+      "year": 2020,
+      "unit": "An",
+      "value": 1600645,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133066"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Milk Animals",
+        "item": "Raw milk of goats",
+        "measurement": {
+          "value": 1600645,
+          "unit": "An",
+          "year": 2020
+        }
+      }
+    },
+    {
+      "category": "Milk Animals",
+      "item": "Raw milk of goats",
+      "year": 2021,
+      "unit": "An",
+      "value": 1657287,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133066"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Milk Animals",
+        "item": "Raw milk of goats",
+        "measurement": {
+          "value": 1657287,
+          "unit": "An",
+          "year": 2021
+        }
+      }
+    },
+    {
+      "category": "Milk Animals",
+      "item": "Raw milk of goats",
+      "year": 2022,
+      "unit": "An",
+      "value": 1621595,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133067"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Milk Animals",
+        "item": "Raw milk of goats",
+        "measurement": {
+          "value": 1621595,
+          "unit": "An",
+          "year": 2022
+        }
+      }
+    },
+    {
+      "category": "Milk Animals",
+      "item": "Raw milk of goats",
+      "year": 2023,
+      "unit": "An",
+      "value": 1529342,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133067"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Milk Animals",
+        "item": "Raw milk of goats",
+        "measurement": {
+          "value": 1529342,
+          "unit": "An",
+          "year": 2023
+        }
+      }
+    },
+    {
+      "category": "Milk Animals",
+      "item": "Raw milk of sheep",
+      "year": 2020,
+      "unit": "An",
+      "value": 1061349,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133067"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Milk Animals",
+        "item": "Raw milk of sheep",
+        "measurement": {
+          "value": 1061349,
+          "unit": "An",
+          "year": 2020
+        }
+      }
+    },
+    {
+      "category": "Milk Animals",
+      "item": "Raw milk of sheep",
+      "year": 2021,
+      "unit": "An",
+      "value": 1084970,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133068"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Milk Animals",
+        "item": "Raw milk of sheep",
+        "measurement": {
+          "value": 1084970,
+          "unit": "An",
+          "year": 2021
+        }
+      }
+    },
+    {
+      "category": "Milk Animals",
+      "item": "Raw milk of sheep",
+      "year": 2022,
+      "unit": "An",
+      "value": 1052067,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133077"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Milk Animals",
+        "item": "Raw milk of sheep",
+        "measurement": {
+          "value": 1052067,
+          "unit": "An",
+          "year": 2022
+        }
+      }
+    },
+    {
+      "category": "Milk Animals",
+      "item": "Raw milk of sheep",
+      "year": 2023,
+      "unit": "An",
+      "value": 1010890,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133077"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Milk Animals",
+        "item": "Raw milk of sheep",
+        "measurement": {
+          "value": 1010890,
+          "unit": "An",
+          "year": 2023
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Sheep fat unrendered",
+      "year": 2020,
+      "unit": "An",
+      "value": 12727492,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133078"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Sheep fat unrendered",
+        "measurement": {
+          "value": 12727492,
+          "unit": "An",
+          "year": 2020
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Sheep fat unrendered",
+      "year": 2021,
+      "unit": "An",
+      "value": 13230535,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133078"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Sheep fat unrendered",
+        "measurement": {
+          "value": 13230535,
+          "unit": "An",
+          "year": 2021
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Sheep fat unrendered",
+      "year": 2022,
+      "unit": "An",
+      "value": 12821584,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133078"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Sheep fat unrendered",
+        "measurement": {
+          "value": 12821584,
+          "unit": "An",
+          "year": 2022
+        }
+      }
+    },
+    {
+      "category": "Producing Animals/Slaughtered",
+      "item": "Sheep fat unrendered",
+      "year": 2023,
+      "unit": "An",
+      "value": 12274417,
+      "metadata": {
+        "createdAt": {
+          "$numberLong": "1737285133079"
+        },
+        "source": "livestock_integration",
+        "dataType": "animal_production",
+        "status": "processed",
+        "country": "Morocco",
+        "lastUpdated": "2025-01-19T11:12:13Z"
+      },
+      "production": {
+        "category": "Producing Animals/Slaughtered",
+        "item": "Sheep fat unrendered",
+        "measurement": {
+          "value": 12274417,
+          "unit": "An",
+          "year": 2023
+        }
+      }
+    }
+  ]
+}]

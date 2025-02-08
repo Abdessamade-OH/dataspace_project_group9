@@ -1,0 +1,61 @@
+<div *ngIf="title.toLowerCase() === 'credit'">
+    <h3>Create Credit Data</h3>
+    <form (ngSubmit)="onSubmit()">
+      <!-- Credit Data Fields -->
+      <div class="form-group my-2">
+        <label for="creditType">Credit Type</label>
+        <input 
+          id="creditType" 
+          type="text" 
+          class="form-control" 
+          [(ngModel)]="creditForm.credit.type" 
+          name="creditType" 
+          placeholder="Enter credit type (e.g., Credit to Agriculture Forestry and Fishing)" 
+          required>
+      </div>
+      <div class="form-group my-2">
+        <label for="measurementValue">Measurement Value</label>
+        <input 
+          id="measurementValue" 
+          type="number" 
+          class="form-control" 
+          [(ngModel)]="creditForm.credit.measurement.value" 
+          name="measurementValue" 
+          placeholder="Enter measurement value (e.g., 25292.64261)" 
+          required>
+      </div>
+      <div class="form-group my-2">
+        <label for="measurementUnit">Measurement Unit</label>
+        <input 
+          id="measurementUnit" 
+          type="text" 
+          class="form-control" 
+          [(ngModel)]="creditForm.credit.measurement.unit" 
+          name="measurementUnit" 
+          placeholder="Enter measurement unit (e.g., million SLC)" 
+          required>
+      </div>
+      <div class="form-group my-2">
+        <label for="measurementYear">Measurement Year</label>
+        <input 
+          id="measurementYear" 
+          type="number" 
+          class="form-control" 
+          [(ngModel)]="creditForm.credit.measurement.year" 
+          name="measurementYear" 
+          placeholder="Enter measurement year (e.g., 2010)" 
+          required>
+      </div>
+      <!-- Metadata is handled automatically; no fields displayed -->
+      <button type="submit" class="btn btn-primary mt-3">Create</button>
+    </form>
+  
+    <!-- Success and Error Messages -->
+    <div *ngIf="successMessage" class="alert alert-success mt-3">
+      {{ successMessage }}
+    </div>
+    <div *ngIf="errorMessage" class="alert alert-danger mt-3">
+      {{ errorMessage }}
+    </div>
+  </div>
+  
