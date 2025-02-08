@@ -4,20 +4,29 @@
 1. Ouvrir un terminal et se déplacer dans le dossier du backend.
 2. Exécuter la commande suivante pour installer les dépendances :
 
+   ```sh
    npm install
+   ```
+
 3. Démarrer le serveur avec la commande :
 
+   ```sh
    npm start
+   ```
 
 ### Frontend (Angular)
 1. Ouvrir un autre terminal et se déplacer dans le dossier du frontend.
 2. Installer les dépendances avec :
 
+   ```sh
    npm install
+   ```
 
 3. Lancer l'application Angular en exécutant :
 
+   ```sh
    ng serve
+   ```
 
 
 ### Utilisation de l'Application
